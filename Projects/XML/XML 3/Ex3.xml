@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<film> <!-->this makes total sense, it is infact a movie<-->                                       <!-->was shocked to see it get a green square on pasting, usually chatgpt misses something<-->
+    <title>Quackpocalypse</title>            <!-->title, yup<-->
+    <scene> <!-->blocking out the scene(s) is smart<-->
+        <location>City Street</location>    <!-->setting catagory stuff makes total sense here, location and time is totally valid<-->
+        <time>Day</time>
+        <action>        <!-->im not so sure about listing this as "action" it feels a little non specific, its more about the general enviorment<-->
+            The scene opens with a busy, sunny afternoon in the city. People are walking, chatting, and going about their day.
+        </action>
+        <sound>              <!-->same goes with "sound" it feels oddly specific and less a variety of an enviorment<-->
+            A loud, rumbling sound shakes the streets. The sound of quacking grows louder in the distance.
+        </sound>
+        <character name="JANE">   
+            <dialogue>
+                Where the heck is that noise coming from?
+            </dialogue>
+        </character>
+        <character name="MIKE">     <!-->character WITH a name, yup good, and dialogue, i prob would have kept the attributes of names under dialogue too just to make life easier in the future<-->
+            <dialogue>
+                Sounds like... a giant rubber duck?
+            </dialogue>
+        </character>
+        <action>
+            Jane turns to Mike, puzzled. Suddenly, the clouds part dramatically, and a massive, inflatable rubber duck floats into view above the city.
+        </action>
+        <description>
+            The duck is easily the size of a skyscraper, glowing yellow against the blue sky. People around them stop in their tracks, staring in shock.
+        </description>
+        <character name="JANE">
+            <dialogue>
+                That... can't be real.
+            </dialogue>
+        </character>
+        <sound>
+            The giant rubber duck lets out an enormous *QUAAAAACK* that echoes for miles. The sound is so loud that windows on nearby buildings shudder.
+        </sound>
+        <character name="MIKE">
+            <dialogue>
+                Well, that’s... new.
+            </dialogue>
+        </character>
+        <action>
+            The duck floats over the skyline, gently nudging buildings and cars out of its way. People scream and flee.
+        </action>
+        <cut>                                         <!-->"cut"? i may have worded this differently, this feels vauge<-->
+            <location>TV News Studio</location>
+            <character name="CARLA">
+                <dialogue>
+                    This is Carla Mason reporting live. It seems a massive rubber duck has taken over the city. Authorities are still investigating how this giant, inflatable creature appeared. Emergency services are advising citizens to stay indoors and avoid the... duck’s path.
+                </dialogue>
+            </character>
+        </cut>
+        <cut>
+            <location>Street – Near the River</location>
+            <action>
+                Jane and Mike look up as the giant rubber duck floats closer. It's so large it blocks out the sun. People are running in all directions.
+            </action>
+        </cut>
+        <character name="JANE">
+            <dialogue>
+                What do we do? This is insane!
+            </dialogue>
+        </character>                                    <!-->incase u didnt see my comment on canvas, heres my 2 prompts for chatgpt:<-->
+        <character name="MIKE">                         <!-->write a short scene from a movie in which a giant rubber duck takes over the city<-->
+            <dialogue>                                  <!-->Now imagine you are in charge of digitally marking up film scripts in XML. Mark up the script you just wrote of Quackpocalypse in XML.<-->
+                I think we just... enjoy the show?
+            </dialogue>
+        </character>
+        <action>
+            The rubber duck quacks again and performs a massive belly flop into the river, sending waves crashing onto the shore.
+        </action>
+        <character name="JANE">
+            <dialogue>
+                Okay, so maybe it’s not dangerous... just... ridiculously inconvenient.
+            </dialogue>
+        </character>
+        <action>
+            The crowd begins to laugh as they get drenched by the splash. People start taking selfies with the giant rubber duck in the background.
+        </action>
+        <character name="MIKE">
+            <dialogue>
+                Well, if nothing else, it’ll be a great story for the grandkids.
+            </dialogue>
+        </character>
+        <action>
+            The camera zooms out to show the entire city now bustling with excitement as the giant rubber duck floats peacefully in the river.
+        </action>
+    </scene>
+</film>
+                            <!-->thats everything good ol chatgpt does here<-->

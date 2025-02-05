@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+    <IngredientsList R="bread">Ingredients needed:
+    Warm water: (105-115 degrees)- to activate the yeast.
+    Active Dry yeast: Instant or rapid rise yeast can be substituted, following my adaption notes in the recipe card.
+    Granulated sugar or honey: the sugar is used to “feed” the yeast and tenderize the bread.
+    Salt: to enhance flavor
+    Oil: Vegetable or canola oil, or melted butter could be substituted
+    Flour: Bread Flour or All-Purpose Flour can both be used with no changes to the recipe. The exact amount of flour used will vary depending on different factors (altitude/humidity etc.). What matters is the texture of the dough. It should be smooth and pull away from the sides of the bowl. It’s important not to add too much flour or your bread will be dense. The dough should be just slightly sticky when touched with a clean finger.
+    
+    The ingredients needed to make bread including flour, sugar, yeast, water, oil and salt.</IngredientsList>
+
+    <Tips R="bread" type="proTips">Pro Tips:
+    Use fresh yeast! If your yeast is expired or bad, the bread will not rise properly. We will test it in step 1 of the recipe. Store yeast in the refrigerator to maintain best quality.
+    To speed up the bread rise time: Make dough up to first rising, placing it in a well greased bowl, turning it once to grease the dough all over. Cover bowl with plastic wrap. Preheat oven to 180 degrees F, then turn oven off. Place bowl into the oven, leaving the oven door slightly cracked open. Allow to rise until doubled. Then remove, punch down and shape into loaves.
+    Do I need a Bread Maker or Stand Mixer?
+    NO! You don’t need any special equipment for this white bread recipe. If you have a stand mixer it makes the process easier, but you can simply use a mixing bowl and wooden spoon, and then knead the dough with your hands. You can use bread machine with this recipe if you have one, but you may need to cut the recipe in half (to make just 1 loaf), depending on your machines capacity.</Tips>
+
+
+    <Steps R="bread">How to make Bread:
+        <step1>1. Proof the yeast: In a large bowl or stand mixer add the yeast, water and a pinch of the sugar or honey. Allow to rest for 5-10 minutes until foaming and bubbly. (This is called “proofing” the yeast, to make sure it is active. If it doesn’t foam, the yeast is no good, and you need to start over with fresh yeast).</step1>
+
+        <step2>2. Prepare the dough: Add remaining sugar or honey, salt, oil, and 3 cups of flour. Mix to combine. Add another cup of flour and mix to combine. With the mixer running add more flour, ½ cup at a time, until the dough begins to pull away from the sides of the bowl.</step2>
+
+        <step3>3. Knead the dough: Mix the dough for 5 minutes on medium speed (or knead with your hands on a lightly floured surface, for 5-8 minutes). The dough should be smooth and elastic, and slightly stick to a clean finger, but not be overly sticky.</step3>
+
+        <step4>4. First Rise: Grease a large bowl with oil or cooking spray and place the dough inside. Cover with a dish towel or plastic wrap and allow to rise in a warm place* until doubled in size (about 1 ½ hours).</step4>
+
+        <step5>5. Four process photos for making bread dough in a mixer.</step5>
+
+        <step6>6. Punch the dough down really well to remove air bubbles.</step6>
+
+        <step7>7. Divide into two equal portions. Shape each ball into long logs and place into greased loaf pans.</step7>
+
+        <step8>8. Second rise: Spray two pieces of plastic wrap with cooking spray and lay them gently over the pans. Allow dough to rise again for about 45 minutes to one hour, or until risen 1 inch above the loaf pans.</step8>
+
+        <step9>9. Bake: Adjust oven racks to lower/middle position. Preheat the oven to 350 F. Bake bread for about 30-33 minutes, or until golden brown on top. Give the top of a loaf a gentle tap; it should sound hollow.</step9>
+
+    <finalSteps>Four process photos for shaping and baking homemade bread. 
+
+    Invert the baked loaves onto a wire cooling rack. Brush the tops with butter and allow to cool for at least 15 minutes before slicing.
+
+    A loaf of homemade white bread cooling on a wire rack.</finalSteps></Steps>
+
+    <Tips R="bread" type="storage">toring: Once cool, store bread in an airtight container or bag for 2-3 days at room temperature, or up to 5 days in the refrigerator.</Tips>
+</recipe>

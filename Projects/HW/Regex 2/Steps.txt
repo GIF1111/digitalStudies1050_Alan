@@ -1,0 +1,22 @@
+haloooo, heres my steps
+1. 
+began by adding a root element <text> </text>
+2.
+then i went for the chap titles
+find: [IVX]+\. +.+
+replace: <chap>\0</chap>
+3.
+next i went for quotes
+find: ".+"
+replace: <quote>\0</quote>
+4.
+fixed line one by removing the <quote>s
+5.
+then went through and found all <chap>I. " with out regex on and removed all the errors
+6.
+then i went with blocking paragraphs kinda like in html with <p>
+find: \n\n
+replace: </p>\0<p>
+
+
+if u wanna see any of my work its all in my git under 'Regex 2'

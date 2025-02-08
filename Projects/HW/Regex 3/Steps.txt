@@ -1,0 +1,6 @@
+I Manually added the title and other tags at the top
+find \n{2,} replace \n\n
+find \n\n replace </line>\0<line>
+find (\_([A-Z]).+\.\_) replace <speaker name=\1>\0</speaker>
+find <line>\[(\d+)\] \w.+ replace <note =\1>\0</note>
+find <line>\[(\d+)\] "(\w.+)" replace <note =\1>\0</note>

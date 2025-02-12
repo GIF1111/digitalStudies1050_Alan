@@ -32,9 +32,9 @@ part 3:
 part 4:
 1. //quote
 
-2. .//speech[.//quote]       -   i dont think this one is right but it worked the first time i ran it and now it dosent so i have no clue, this is my best shot
-
-3. (.//speech[.//quote])[1]  -   same thing happened here
+2. //speech[.//quote]      
+ 
+3. (//speech[.//quote])[1] 
 
 4. (//quote)[2]              -   "commendo spiritum"
 

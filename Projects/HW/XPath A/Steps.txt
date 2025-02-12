@@ -1,0 +1,36 @@
+part 1: 
+1. //play/script/speech/line/speaker
+
+part 2:
+1. it seems the parentheses limit the code to 1 instance, it searches for the 10th instance of line under the nearest parent.
+
+2. (//speech)[2]
+
+3. //speech/line[2]
+
+4. (//speech)[12]/line[2], "This blind matter troubleth my wit." yeah im really feeling that rn lol
+
+5. because the text doesn't exist
+
+part 3:
+1. //referent
+
+2. count(//referent)    269
+
+3. //line[count(referent) > 1]/referent[2]
+
+4. (//speech)[1]//referent
+
+5. (//speech)[last()]//referent
+
+6. count((//speech)[last()]//referent)     12
+
+7. (//referent)[last()]
+    ALSO (idk which ur looking for so heres both)
+   (//referent)[269]
+
+part 4:
+1. //quote
+
+2. .//speech[.//quote]
+   

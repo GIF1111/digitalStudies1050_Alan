@@ -1,0 +1,102 @@
+Part 1
+There are <note> elements in two places: scattered through the play itself, and correspondingly at the end, as endnotes.
+
+1. Write an XPath to count all the <note> elements that occur within <line> elements. Give the path and the number.
+
+(//line/note)=>count()   or   count(//line/note)  result: 11
+
+If you got a different result, you were probably counting the notes themselves, rather than the lines that contain them. Some lines may have multiple note elements, so the number will be different (10 lines contain 11 notes total).
+
+2. Write an XPath to locate all the <speech> elements that contain <note> elements. (Hint: you did something similar last time to find speeches that contained quotes.)
+
+//speech[.//note]   or   //speech[descendant::note]
+
+3. Write an XPath to count all the <speech> elements that contain <note> elements. Give the path and the number.
+
+//speech[descendant::note]=>count()   or   //speech[.//note]=>count()   or similar statement wrapping with count( ) ; result should be 10 speeches containing note elements
+
+4. There is one <line> element that contains two <note> elements. Write an XPath that will identify that <line>. Report the XPath statement as well as the text of the line.
+
+//line[./note[2]]    text: <line>And you do by me<note n="14"/> that journey what<note n="15"/> you will I take.</line>
+
+Note: this is really saying the line that contains a second note element. If it contained a third note, and we really wanted to filter only for lines that contain exactly two note elements and no more, we could use this:   //line[count(./note)=2]     
+
+5. Building on the previous answer, write an XPath statement that will deliver the whole <speech> that contains that <line> with two <note> elements in it. (See the "Navigating up: Parents and ancestors" section of the XPath introduction tutorial for one option; alternately, expect to have a predicate within a predicate within a predicate.)
+
+//speech[./line[./note[2]]]  or  //line[./note[2]]/ancestor::speech
+
+6. Building on the previous answer, write an XPath statement that will deliver just the name of the <speaker> of the <speech> that contains that <line> with two <note> elements in it. There are two ways to do this. Your XPath can give just the text of the <speaker> element, or it can give the attribute value using the function called data(). See if you can get both.
+
+//speech[./line[./note[2]]]//speaker
+
+//speech[./line[./note[2]]]//speaker/data(@char)
+
+//line[./note[2]]/ancestor::speech//speaker
+
+//line[./note[2]]/ancestor::speech//speaker/data(@char)
+
+Part 2
+As might be expected in a religious text, God is mentioned frequently. He even appears as a speaker.
+
+1. Write an XPath to locate all the <speaker> elements where God is labeled in the attribute value char=” “ as the speaker. Hint: you will need to use the XPath function data() within a predicate, and you will need an equals sign.
+
+//speaker[data(@char)="God"]
+
+//speaker[data(@char) eq "God"]   (eq is an alternative to the equals sign, though they do not behave the same way in all contexts)
+
+2. Write an XPath to locate all the speeches where God is labeled as the speaker. (Hint: your XPath will need a predicate, and if you are using forward slashes to indicate child:: or descendant::, you need to start with a period to indicate the self:: axis first.)
+
+//speech[.//speaker/data(@char)="God"]
+
+//speech[descendant::speaker/data(@char)="God"]
+
+//speech[.//speaker/data(@char) eq "God"]  
+
+3. Write an XPath to locate all the speeches where God is labeled as the speaker and count the total number of lines in them. 
+
+//speech[.//speaker/data(@char)="God"]/line=>count()   (or many other variations on this syntax)  Total: 48 lines 
+
+4. Write an XPath to locate all the times where God appears as the attribute value of <referent char=” “>. 
+
+//referent[data(@char)="God"]
+
+5. Building on the previous answer, write an XPath to count those <referent> elements. Give both the XPath statement and the number.
+
+//referent[data(@char)="God"]=>count()  or other syntax variations; Total: 87 references.
+
+Part 3
+The title character, Everyman, appears often as well.
+
+1. Write an XPath to locate all of Everyman’s speeches. (Hint: see above for God's speeches.)
+
+//speech[.//speaker/data(@char)="Everyman"]   or   //speech[.//speaker[./data(@char)="Everyman"]]
+
+(May also use descendant:: and child:: in place of .// and ./, etc.)
+
+2. Write an XPath to count all of Everyman’s speeches. Give both the XPath statement and the number.
+
+//speech[.//speaker/data(@char)="Everyman"]=>count()   or
+
+//speech[.//speaker[./data(@char)="Everyman"]]=>count()   or
+
+...either of the above with count() wrapping the rest of the expression.
+
+Any of these expressions gives a total of 91.
+
+3. Write an XPath to locate all the <referent> elements within Everyman’s speeches. (Bonus: can you write XPaths to count his speeches that include any <referent> elements, and also to count the number of <referent> elements in his speeches?)
+
+//speech[.//speaker/data(@char)="Everyman"]//referent
+
+//speech[.//speaker/data(@char)="Everyman"][.//referent]=>count()   counts the speeches with referents. Total: 59.
+
+//speech[.//speaker/data(@char)="Everyman"]//referent=>count()    counts the number of referent elements. Total: 126.
+
+4. Write an XPath to locate all the <referent> elements in Everyman’s speeches where the character referenced is Death.
+
+//speech[.//speaker/data(@char)="Everyman"][.//referent/data(@char)="Death"]
+
+5. Write an XPath to count the speeches in the previous section. Give the XPath and the number.
+
+//speech[.//speaker/data(@char)="Everyman"][.//referent/data(@char)="Death"]=>count()
+
+Numerical answer should be 7.S

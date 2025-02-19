@@ -1,0 +1,23 @@
+(i only looked at the solution file if i absolutely needed too)
+
+part 1:
+1. //name/text() => string-join("; ") 
+
+part 2:
+1. //referent
+2. //referent/@char/data()
+3. distinct-values(//referent/@char/data())
+
+part 3:
+1. //referent[data(@char)="God"]
+2. //referent[data(@char)="God"]/string()
+3. distinct-values(//referent[@char="God"]/string())
+4. string-join(distinct-values(//referent[@char="God"]/string()), '; ')
+
+part 4:
+1. count(//speech[.//speaker/data(@char)="Everyman"])         91
+2. count(//speech[.//speaker/data(@char)="Everyman"]/line)    377
+3. 
+count(//speech[.//speaker/data(@char)="Everyman"]/line)       4.142857142857142857
+div
+count(//speech[.//speaker/data(@char)="Everyman"])

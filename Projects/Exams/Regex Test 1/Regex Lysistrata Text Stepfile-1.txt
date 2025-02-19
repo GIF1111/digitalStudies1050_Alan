@@ -1,0 +1,147 @@
+Regex Lysistrata Test: Stepfile
+
+STUDENT NAME HERE: Alan Maeroff
+
+Only add to this file; do not delete anything from it.
+
+Under each task, you will see the following:
+
+My Find term:
+My Replace term:
+Process notes:
+
+Use the first two lines to record the find and replace expressions you used for each step. The Process notes line is for anything else that should be noted and clarified, such as whether you had Dot Matches All turned on or off, or whether you had to do manual cleanup. If you complete a step by using multiple separate find-and-replace actions, such as if you insert start and end tags as two processes, make another copy of these three lines to record each action.
+
+Open the file lysistrata-for-regex-test.txt. This is the file you will be editing with Regex. I have already deleted the Project Gutenberg material at the top and bottom and confirmed that the reserved characters & < > do not appear, so you can skip those steps.
+
+1. Tag the speakers' names. You will see them in the text at the beginning of each speech, abbreviated as three or four capital letters followed by a period, such as LYS. or MYRR. Write a search-and-replace that will tag them all as follows:
+<spkr name="LYS">LYS.</spkr>
+Tips: you do NOT want to tag the names that are listed at the top of the document. You also do NOT want to tag lines such as LYSISTRATA, CALONICE, MYRRHINA, LAMPITO. because this is actually the start of a scene. So place your cursor below the list of names, and when you are doing the replace, click the "Replace to End" button instead of "Replace all" in the Find/Replace Regex popup on oXygen.
+
+My Find term: (?:\n|^)[A-Z]{3}\.
+My Replace term: <spkr name="$0">$0</spkr>
+Process notes: i did try using \0 but for some reason i couldnt get that to work
+
+OPTIONAL BONUS: If you have tagged the speakers successfully: There are some speakers later on in the play with two short words abbreviating their names, CHOR. SEN. and CHOR. MUL. (chorus of old men, chorus of women). Your initial tagging will only have picked up CHOR. For a bonus point, can you change your search to fix this? There are two strategies. One is that you could leave your existing tagging and write a subsequent search and replace that would locate those tags and pull the SEN. or MUL. into it. The other approach is to undo your replace, so you're starting fresh, and expand your search so it might find either one or two such words.
+
+
+My Find term:
+My Replace term:
+Process notes:
+
+
+2. Next, as we continue tagging from the inside out, you're going to tag the endnotes. As in the Everyman play, these appear in two places: in the text in brackets [1], and then down below where the actual notes themselves appear, like this: [1] Leipzig: "existumant"
+As a further twist, there are two sets of endnotes: the ones called Transcriber's Footnotes, as described above, and ones added by Project Gutenberg. The second type look like this: [PG1] in the text, and similarly beginning with [PG1] etc. at the end of the file.
+
+2a. First, locate the transcriber's (non-PG) endnotes. Tag the ones at the bottom of the file first; these begin around line 1700. It may help to put your cursor right above them and use the "Replace to End" button again. However, this is not strictly necessary, as your search can begin with the "start of line" character, with that immediately followed by one or more digits in square brackets. Remember that square brackets need to be escaped in your search, and you want Dot Matches All turned OFF.
+ 
+Your search should turn these:
+[1] Leipzig: "existumant"
+into these:
+<endnote orig="transcriber" n="1"> Leipzig: "existumant" </endnote>
+
+My Find term: ^\[(\d+)\](.*)
+My Replace term: <endnote orig="transcriber" n="$1"> $2 </endnote>
+Process notes: nothing too much to say here, took me a while to work out how the (.*) works
+
+
+2b. Second, do the same to locate and tag the PG endnotes that run to the end of the document. This will be a little different. If you look at the first one (around line 1790), you'll see that some of these notes are multiple paragraphs long. So you won't be able just to use a dot-plus to take in the text of the note. Instead, you'll use the clopen strategy, where you find the end of each footnote by finding the beginning of the next one. You will only be finding the bracketed letters and numbers to do this, not the text of the note itself. Modify your find and replace from the previous step to tag these notes, and remember to add that you have to move one of the end tags after you do your replace.
+
+Your search should turn these:
+[PG3] The eels from Lake Copaïs in Boeotia were esteemed highly by epicures.
+Into these:
+<endnote orig="Project_Gutenberg" n="3"> The eels from Lake Copaïs in Boeotia were esteemed highly by epicures. </endnote>
+
+My Find term: \[PG(\d+)\]
+My Replace term: <endnote orig="Project_Gutenberg" n="$1"> $1 </endnote>
+Process notes: not 100% if this is what ur looking for but i feel like its right 
+
+
+2c. Third, we will tag the endnote numbers where they appear within the text of the play itself. Now that we have tagged the notes, and gotten rid of the square brackets there, this will be easier. Locate the numbers for the transcriber's notes and tag them as self-closing elements. As you look back to your previous answers, note that these notes will not normally appear at the beginning of a line. You will be turning these:
+[1]
+into these:
+<endnote orig="transcriber" n="1"/>
+
+My Find term: \[(\d+)\]
+My Replace term: <endnote orig="transcriber" n="$1"/>
+Process notes: im so tired idek what im doing anymore
+
+
+2d. Fourth, you will do the same with the PG note numbers in the text. You will be turning these:
+[PG1]
+into these:
+<endnote orig="Project_Gutenberg" n="1"/>
+
+My Find term: \[(PG\d+)\]
+My Replace term: <endnote orig="Project_Gutenberg" n="$1"/>
+Process notes: its just the samething as before but with PG in it
+
+
+3. At the top of the file, you'll see a list of characters, which is normally called Dramatis Personae (persons of the drama). They are in all capital letters with a period at the end of the line. Note that each line begins with two line spaces, which will make it easy to distinguish these from other all-caps lines in the text (we'll get to those below). You will be turning these:
+  LYSISTRATA.
+into these:
+<char name="LYSISTRATA">LYSISTRATA</char>
+
+While you could normally catch a line with all caps with the search [A-Z]+, that will not work here because several lines include the ligature character Æ, which is not included in the A-Z group. So either add it to your search as a possible character, or just use a dot to find all characters on the line. If you do the latter, note that the existing lines end with a period, and you want to get rid of that. So you will have to use a lazy match to persuade Regex to stop when it gets to the period, and exclude it from the capturing group. Describe your choice in the Process Notes line below.
+You have the option of highlighting this group of lines and using the "Scope: Only selected lines" option in the Regex box. It should not be strictly necessary, but if you do so, make a note of it too in the Process Notes below. 
+
+My Find term: ^\s{2}([A-Z]+)\.$
+My Replace term: <char name="$1">$1</char>
+Process Notes: pretty sure i got it all, its just a char limit and like adding a period and newline
+
+
+4. There are other all-caps lines that look like this:
+LYSISTRATA, CALONICE, MYRRHINA, LAMPITO.
+(There are no leading whitespace characters here; the letters begin at the start of the line.)
+Now that you have tagged the character names in the character list at the top, you can tag these lines more easily. These six lines, spread across the play, actually mark the beginning of each new scene by listing the characters in that scene. You are going to tag these in two ways: giving them their own <sceneChars> element, and then using that element to also place the <scene> tag that will wrap the whole scene, including the <sceneChars> element and all the speeches inside the scene. (You will be wrapping the speeches in <speech> tags below.) Use what you did in step 3 to inform what you need to do here. Note that, unlike in step 3, these lines also include a comma. Also, you will not be able to find them easily with a dot-plus, because you need to specify lines that are in all caps.
+
+4a. Write a search that will turn lines like this:
+LYSISTRATA, CALONICE, MYRRHINA, LAMPITO.
+into lines like this:
+<sceneChars cList="LYSISTRATA, CALONICE, MYRRHINA, LAMPITO">LYSISTRATA, CALONICE, MYRRHINA, LAMPITO</sceneChars>
+
+My Find term: ^([A-Z\s,]+)\.$
+My Replace term: <sceneChars cList="$1">$1</sceneChars>
+Process Notes: i hope theres not more, i only got 5 results, so hopefully i wrote that right
+
+
+4b. Using your new <sceneChars> elements, wrap the scenes in <scene> tags. You can do this in a single pass with the clopen strategy, or separate passes for the start and end tags if you wish. Either way, you will wind up having to manually move a </scene> end tag. You'll need to note that in your Process Notes below.
+
+My Find term: <sceneChars[^>]*>.*?</sceneChars>
+My Replace term: <scene>$0</scene>
+Process Notes: another time where im not 100% sure
+
+
+5. Normally we would tag the speeches before the scenes, but in this case the file had some peculiarities would have made that more difficult, so I put it off till now. We're going to tag them now, with <speech>. At this point every speech begins with a <spkr> tag, so you should be able to find those and use the clopen strategy. It will be very similar to what you did to tag the scenes, but for one thing: remember that extra </scene> tag you had to move in the previous step? This time around, the extra </speech> tag will appear in six places, once at the top of each <scene>, and will need to be moved to the bottom of each <scene>. Be sure to note that in your process notes below.
+
+(Optionally, you could use Regex even for finding and moving these six </speech> tags: to find each </speech> at the beginning of a <scene> and remove it, then to find each </scene> and insert the </speech> before it. If you do so, add new lines for Find and Replace below and explain what you did in your Process Notes line.)
+
+My Find term: (<spkr[^>]*>.*?</spkr>)(.*?)(?=(<spkr|</scene>))
+My Replace term: <speech>$0</speech>
+Process notes: i wish i could explain more, it just works
+
+
+6. At this point, your file should only need manual markup. If this were part of a project, you would need to insert the <head> and <body> and <notes> tags (among many others) that are in the completed XML file I have given you for comparison. However, I am not going to require you to do all of that as part of this exercise.
+
+Instead, you have just a few things to do:
+
+6a. Manually add the root element <play> around the whole contents of the file.
+
+When you have done so, write the word TRUE here: True 
+
+6b. Paste in the XML declaration line at the top of the file, above the root element:
+<?xml version="1.0" encoding="UTF-8"?>
+
+When you have done so, write the word TRUE here:True
+
+6c. Save the marked-up file, changing the file type from .txt to .xml. Close it, and then re-open it in oXygen. 
+
+When you have done so, write the word TRUE here:
+
+6d. If you successfully completed all of the steps above, you should have a green square. If you do not, and it is because you missed some manual markup (such as moving an end tag left by the clopen strategy), now is where you fix that.
+
+Write either GREEN or RED here, depending on your square color:
+
+If your square is red, and you just have some minor manual cleanup to do, describe that cleanup here. If it is because you were unable to complete the steps above, describe, as well as you can, what you think the problem in your markup is, referring back by number and letter to the step or steps above you were unable to complete.
+
+Process notes:

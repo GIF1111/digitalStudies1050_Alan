@@ -1,0 +1,2073 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<play>
+
+  <head>
+    <title>Lysistrata</title>
+    <author>Aristophanes</author>
+    <translator>Richard Francois Philippe Brunck</translator>
+    <language>Latin</language>
+  </head>
+
+  <body>
+
+    <charList>
+      <char name="LYSISTRATA">LYSISTRATA</char>
+      <char name="CALONICE">CALONICE</char>
+      <char name="MYRRHINA">MYRRHINA</char>
+      <char name="LAMPITO">LAMPITO</char>
+      <char name="CHORUS SENUM">CHORUS SENUM</char>
+      <char name="CHORUS MULIERUM">CHORUS MULIERUM</char>
+      <char name="STRATYLLIS">STRATYLLIS</char>
+      <char name="PROVISOR">PROVISOR</char>
+      <char name="MULIERES QUÆDAM">MULIERES QUÆDAM</char>
+      <char name="CINESIAS">CINESIAS</char>
+      <char name="PUER">PUER</char>
+      <char name="CADUCEATOR LACEDÆMONIORUM">CADUCEATOR LACEDÆMONIORUM</char>
+      <char name="LEGATI LACEDÆMONIORUM">LEGATI LACEDÆMONIORUM</char>
+      <char name="POLYCHARIDES">POLYCHARIDES</char>
+      <char name="CIRCUMFORANEI QUIDAM">CIRCUMFORANEI QUIDAM</char>
+      <char name="FAMULUS">FAMULUS</char>
+      <char name="ATHENIENSIS QUIDAM">ATHENIENSIS QUIDAM</char>
+    </charList>
+
+
+    <scene>
+      <sceneChars cList="LYSISTRATA, CALONICE, MYRRHINA, LAMPITO">LYSISTRATA, CALONICE, MYRRHINA,
+        LAMPITO</sceneChars>
+
+      <speech><spkr name="LYS">LYS.</spkr> At si quis in ædem Bacchi vocasset eas, aut Panos, aut
+        Coliadis, aut Genetyllidis,<endnote orig="Project_Gutenberg" n="1"/> ne transire quidem
+        liceret præ multitudine tympanorum: nunc autem nulla adest hic mulier. Verumtamen hæc vicina
+        mea foras exit. Salve, ô Calonice.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Et tu mecastor salve, Lysistrata. Sed quid conturbata es?
+        exporge frontem, carissima: non enim te decent contracta supercilia.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Sed, ô Calonice, uritur mihi cor, et valde me piget sexus
+        nostri, quoniam viri existimant<endnote orig="transcriber" n="1"/> nos esse nequam.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Quippe tales pol sumus.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quumque edictum illis fuerit huc convenire, deliberaturis
+        de re non levi, dormiunt, nec veniunt.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Sed, ô carissima, venient. Mulieribus domo prodire non
+        ita facile est. Alia enim marito operam dat: alia famulum excitat: alia puerum in lecto
+        collocat, alia lavat, alia cibo in os indito placat.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Sed erant magis necessaria curanda ipsis.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Quid autem est, mea Lysistrata, cur nos mulieres
+        convocas? Quænam illa res est aut quanta?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Magna.<endnote orig="Project_Gutenberg" n="2"/></speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Num etiam crassa?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ita me servet Jupiter, crassa.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Quî fit ergo, ut non veniamus?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Nihil tale est: cito enim convenissemus. Sed est quiddam
+        a me quæsitum, multis vigiliis in omnes partes versatum.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Mirabor, ni subtile quid sit versatum istud in omnes
+        partes.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Adeo subtile, ut universæ Græciæ salus sita sit in
+        mulieribus.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> In mulieribus? Parum ergo abest, quin nulla sit.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ita ut arbitri nostri sit, salvam esse rempublicam, aut
+        nullos superesse, nec Peloponnesios—</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Nullos superesse edepol optimum<endnote
+          orig="transcriber" n="2"/> est.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Bœotiosque omnes perire funditus.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Non omnes, quæso; sed anguillas excipe.<endnote
+          orig="Project_Gutenberg" n="3"/></speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> De Athenis autem nil tale ominabor: tu ipsa conjecturam
+          facias.<endnote orig="transcriber" n="3"/> Si vero convenerint huc mulieres ex Bœotia
+        simul et Peloponneso, nosque Atticæ, communiter servabimus Græciam.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Sed quid possent mulieres prudenter agere et præclare?
+        nosne, quæ sedemus pigmentis nitentes, ornamentis excultæ, crocotas gestantes, et Cimbericas
+        rectas, et peribaridas?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Immo enimvero hæc ipsa sunt, a quibus salutem spero;
+        crocotulæ, et unguenta, et peribarides, et anchusa, et pellucidæ tunicæ.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Quo tandem modo?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ita ut illorum, qui nunc vivunt, virorum contra alium
+        hastam nemo tollat.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Crocotam ergo, ita me Ceres amet et Proserpina, mihi
+        tingendam curabo.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Nec clypeum sumat.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Cimbericam induam.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Nec gladiolum.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Peribaridas emam.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Annon ergo adesse mulieres oportebat?</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Quin pol volando venisse oportuit dudum.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Sed, pro dolor! videbis eas esse nimis Atticas, dum omnia
+        faciunt justo tardius.<endnote orig="Project_Gutenberg" n="4"/> At nec ex maritimis ulla
+        mulier adest, nec ex Salamine.<endnote orig="Project_Gutenberg" n="5"/></speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Sed has scio in celocibus trajecisse matutinas.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Nec, quas sperabam et confidebam ego primas hic adfore,
+        Acharnenses mulieres veniunt.<endnote orig="Project_Gutenberg" n="6"/></speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Attamen Theagenis uxor,<endnote orig="Project_Gutenberg"
+          n="7"/> tanquam horsum venire cupiens Hecatæ simulacrum consuluit. Sed ecce accedunt
+        quædam: item aliæ etiam. Hem, hem! undenam sunt?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ex Anagyro.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Edepol ut dicis. Anagyrus<endnote
+          orig="Project_Gutenberg" n="8"/> ergo mihi videtur commotus.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Num tardius advenimus, ô Lysistrata? quid ais? cur
+        taces?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Non laudo, Myrrhina, modo advenientem in re
+        tanta.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Vix enim in tenebris cingulum inveni, sed, si res
+        urget, fare præsentibus nobis.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Immo potius opperiamur paulisper, dum Bœotiæ et
+        Peloponnesiæ mulieres veniant.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Multo tu rectius dicis: et ecce jam hæc Lampito
+        accedit.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> O carissima Lacæna, salve Lampito. Quam formosa videris,
+        ô dulcissima! quam pulchro colore, quam vegeto es corpore! vel taurum strangulare
+        possis.</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Næ istuc ecastor credo, siquidem corpus exerceo, et
+        subsultans pede podicem ferio.<endnote orig="Project_Gutenberg" n="9"/></speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quam bellas habes papillas!<endnote orig="transcriber"
+          n="4"/></speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Tanquam victimam pertractatis me.<endnote
+          orig="transcriber" n="5"/></speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Hæc autem adolescentula altera, cujas est?</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Primaria ecastor femina Bœotia venit ad vos.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Pol Bœotia est, pulchrumque habens campum.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Et pol mundum, vulso pulegio.<endnote
+          orig="Project_Gutenberg" n="10"/></speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quænam vero est illa altera puella?</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Bona quidem ecastor, sed Corinthia.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Bona edepol videtur, ut illic esse solent.<endnote
+          orig="Project_Gutenberg" n="11"/></speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Jam vero quis congregavit mulierum hunc cœtum?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ipsa ego.</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Dic igitur nobis, quid velis.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ita sane, carissima.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Dic tandem quodnam sit serium illud negotium.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Jam dicam. Sed priusquam dicam, vos hoc interrogabo
+        pauxillum quidpiam.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Quidquid voles.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Liberorum vestrorum patres nonne desideratis absentes in
+        milita? Sat enim scio unicuique vostrûm peregre abesse virum.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Meus quidem vir jam quinque menses, ô miser, abest in
+        Thracia observans Eucratem.<endnote orig="Project_Gutenberg" n="12"/></speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Meus vero totos sex menses ad Pylum.<endnote
+          orig="Project_Gutenberg" n="13"/></speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Meus autem, si quando ab exercitu redeat, mox adnexo
+        sibi clypeo evolat.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Sed nec mœchi relicta est scintilla. Ex quo enim nos
+        prodiderunt Milesii, ne olisbum quidem vidi octo digitos longum, qui nobis esset coriaceum
+        auxilium. Velletisne ergo, si quam ego fabricam invenero, bello mecum finem
+        imponere?</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Per Deas juro me velle, si me oporteat vel encyclum
+        hocce opponere pignori, sumtamque pecuniam hoc ipso die ebibere.<endnote
+          orig="Project_Gutenberg" n="14"/></speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Ego vero mihi videor vel rhombi instar meipsam
+        dissectura, et dimidium mei datura.</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Ego vero vel ad Taygetum<endnote
+          orig="Project_Gutenberg" n="15"/> ascenderem, si ibi Pacem sim visura.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Dicam ergo; siquidem res celanda non est. Nobis enim, ô
+        mulieres, si volumus cogere viros ad colendam pacem, abstinendum est—</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Quo? dic.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Facietisne ergo?</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Faciemus, si vel nos mori oporteat.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Abstinendum igitur nobis est a pene. Quid mihi
+        aversamini? quorsum itis? Vos inquam, cur labra distorquetis, et renuitis? cur color
+        mutatur? cur lacrima fluit? facietisne, an non facietis? aut quid cogitatis?</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Non fecerim, sed bellum serpat.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Nec edepol ego, sed bellum serpat.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Hoccine dicis tu, rhombe? atqui modo aiebas te vel
+        dimidium tui abscissuram.</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Aliud, aliud quidquid voles. Vel per ignem, si oporteat,
+        incedere volo. Hoc potius, quam quod de pene dicebas, ad quem nihil est quod compares, ô
+        cara Lysistrata.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Tu vero, quid?</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Et ego volo per ignem.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> O libidinosum sexum omnem nostrum! non temere est, quod
+        de nobis fiunt Tragœdiæ: nihil enim sumus, nisi _Neptunus et scapha_.<endnote
+          orig="Project_Gutenberg" n="16"/> Sed, ô cara Lacæna (tu enim si fueris sola mecum,
+          perditam<endnote orig="transcriber" n="6"/> rem adhuc restituere poterimus) adsentire
+        mihi.</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Per ecastor<endnote orig="Project_Gutenberg" n="17"/>
+        difficile est feminas dormire solas sine mentula. Hoc tamen perpeti oportet: nam pacem fieri
+        oportet maxime.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> O carissima et sola harum femina.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Si autem, quod absit, quam maxime abstineamus a quo tu
+        dicis, magisne eapropter fiet pax?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Multo magis, ita me ament Divæ. Si enim domi sederemus
+        pigmentis oblitæ et in amorginis<endnote orig="Project_Gutenberg" n="18"/> subucilis nudæ
+        insederemus glabro cunno, arrigerent viri, et coire cuperent: nos autem si non accederemus,
+        at nos contineremus, sat scio mox pacem eos facturos.</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Sane Menelaus olim conspectis, ut puto, Helenæ nudis
+        papillis, ensem abjecit.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Quid vero, ô misella, si nos omiserint viri?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Tum istud Pherecratis adhibe, _Canem excoriatum
+          excoriare_.<endnote orig="Project_Gutenberg" n="19"/></speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Nugæ sunt ista simulacra. Si vero comprehensas in
+        cubiculum vi traxerint nos?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Renitere apprehensis foribus.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> At si verberent?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Tum præbe, sed maligne. Nulla enim his inest voluptas, si
+        per vim fiant. Aliisque modis molestia eos afficere oportet. Nec dubites, quin ocius
+        defatigentur: nunquam enim ex eo voluptatem vir capiet, ni mulieri simul jucundum
+        sit.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Si vobis hoc videtur, nobis itidem videtur.</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Et nos quidem nostris viris persuadebimus, ut ubique
+        sine dolo malo pacem colant. Sed Atheniensium colluviem quomodo quis adducere possit, ut ne
+        rursus delicias faciat?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ne sis sollicita: nos, quod in nobis erit, nostratibus
+        persuadebimus.</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Nequicquam, quamdiu in triremes conferentur studia, et
+        in Divæ æde adservabitur immensa illa pecuniæ vis.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Sed et hoc etiam bene provisum et præcautum est:
+        occupabimus enim arcem hodie. Nam provectioribus ætate mulieribus hoc mandatum est negotium,
+        ut, dum nos hæc constituimus, sub specie sacrificandi occupent arcem.</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Omnino fieri possit: etenim sic bene autumas.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Cur ergo non hæc quamprimum, ô Lampito, jurejurando
+        confirmamus, ut irrupta sint?</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Jusjurandum modo concipito, ut juremus.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Recte autumas. Ubi est Scythæna?<endnote
+          orig="Project_Gutenberg" n="20"/> quo spectas? Pone in conspectu clypeum supinum: et mihi
+        det hostias aliquis.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Lysistrata, quo sacramento nos adstringes?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quonam? In clypeum, ut Æschylum aiunt fecisse quondam,
+        ove mactata—<endnote orig="Project_Gutenberg" n="21"/></speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Ne, quæso, mea Lysistrata, juraveris in clypeum
+        quicquam super pace.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quodnam erit ergo jusjurandum?</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Si sumtum alicunde album equum immolemus, et super eo
+        juremus.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quorsum album equum?</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Sed quomodo jurabimus nos?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Edepol tibi dicam, si velis. Collocato supino grandi
+        calice nigro, in eum immolemus Thasii<endnote orig="Project_Gutenberg" n="22"/> vini urceum,
+        et juremus aquam<endnote orig="transcriber" n="7"/> in calicem nos non infusuras.</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Dii boni, quale juramentum! dicere nequeam quantum
+        illum probem. Intus efferat aliquis foras calicem et urceum.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> O carissimæ mulieres, quanta vis fictilium! hoc sumto
+        calice statim quis hilarabitur: eum depone, et hostiam mihi prehende. O Suada domina, et
+        amicitiæ phiala, propitia mulieribus accipe hæc sacra.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Boni coloris est sanguis et pulchre profluit.</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Quin etiam, ita me Castor amet, suave olet.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Sinite primam me, ô mulieres, jurare.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Non, per Venerem; nisi sortita fueris.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Prehendite omnes calicem, ô Lampito, dicatque pro vobis
+        una, quæcunque ego dixero; vos vero in eadem jurabitis et rata habebitis: _Nec adulter, nec
+        vir ullus est—_</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> _Nec adulter, nec vir ullus est._</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> _Qui ad me accedet rigente nervo._ Dic.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> _Qui ad me accedet rigente nervo._ Papæ! labant genua
+        mea, o Lysistrata.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> _Domi casta degam ætatem—_</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> _Domi casta degam ætatem._</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> _Crocotam gestans et comta—_</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> _Crocotam gestans et comta._</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> _Ut meus vir quam maxime incendatur—_</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> _Ut meus vir quam maxime incendatur._</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> _Nec unquam sponte viro meo morem geram—_</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> _Nec unquam sponte viro meo morem geram._</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> _Si vero me invitam vi cogat—_</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> _Si vero me invitam vi cogat._</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> _Maligne ei præbebo et motus non addam._</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> _Maligne ei præbebo et motus non addam._</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> _Non tollam calceos sursum ad lacunar._</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> _Non tollam calceos sursum ad lacunar._</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> _Non conquiniscam instar leœnæ in cultri
+        manubrio._</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> _Non conquiniscam instar leœnæ in cultri
+        manubrio._</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> _Hæc si rata habeam, liceat mihi hinc bibere._</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> _Hæc si rata habeam, liceat mihi, hinc
+        bibere._</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> _Si vero transgrediar, aqua impleatur calix._</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> _Si vero transgrediar, aqua impleatur calix._</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Vosne omnes jurejurando hæc firmatis?</speech>
+
+      <speech><spkr name="CAL">CAL.</spkr> Ita, per Jovem.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Age, ego sacrificabo hanc hostiam.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Partem modo, ô cara, ut statim ab initio amicæ inter
+        nos simus.</speech>
+
+      <speech><spkr name="LAMP">LAMP.</spkr> Quis ille clamor?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Hoc illud est, quod dicebam. Nam mulieres arcem Deæ jam
+        occuparunt. Sed, ô Lampito, tu quidem abi, et res vestras compone: has autem relinque nobis
+        hîc obsides. Nos vero cum ceteris, quæ sunt in arce, mulieribus, una occludamus ingressæ
+        ostium repagulis.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Nonne putatis contra nos suppetias venturos mox
+        viros?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Flocci eos non facio.<endnote orig="transcriber" n="8"/>
+        Non enim tantas minas, nec tantum ignem ferentes venient, ut claustra hæc reserare possint,
+        nisi ea, qua diximus, conditione.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Nunquam certe, ita me Venus amet. Frustra enim nos
+        mulieres vocaremur invictæ et scelestæ. </speech>
+    </scene>
+
+    <scene>
+      <sceneChars cList="CHORUS SENUM, CHORUS MULIERUM, STRATYLLIS, PROVISOR, MULIERES QUÆDAM"
+        >CHORUS SENUM, CHORUS MULIERUM, STRATYLLIS, PROVISOR, MULIERES QUÆDAM</sceneChars>
+
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Perge, Draces;<endnote orig="Project_Gutenberg"
+          n="23"/> præi pedetentim, etsi dolet tibi humerus, ferenti tantum onus virentis
+        olivæ.</speech>
+
+      <speech><spkr name="SEMICH">SEMICH.</spkr> Profecto multa præter spem eveniunt in longa ætate.
+        Vah! quis enim unquam sperasset, ô Stymmodore, se auditurum, ut mulieres, quas pavimus domi,
+        malum manifestum, obtinerent sacrum simulacrum, et occuparent arcem meam, pessulisque et
+        claustris vestibulum occluderent?</speech>
+
+      <speech><spkr name="SEMICH">SEMICH.</spkr> Sed quam citissime properemus ad arcem ire, ô
+        Philurge, ut circumponentes hos caudices ipsis, quotquot hoc facinus instituerunt et
+        aggressæ sunt, pyra una aggesta, incendamus nostris manibus omnes, uno animo: inprimis autem
+        Lyconis uxorem. Non enim, ita mihi Ceres propitia sit, quoad ego vixero, nobis illudent. Nam
+        nec Cleomenes,<endnote orig="Project_Gutenberg" n="24"/> qui arcem prius occupavit, abivit
+        sine malo suo: sed is, licet Laconicos spiritus gerens, abscessit, armis mihi traditis,
+        exiguam plane et detritam habens lacernam, squalidus, sordidatus, hirsutus, inde a sex annis
+        illotus. Ita oppugnavi ego virum illum tamen, per sedecim ordines disposito exercitu,
+        dormiens ad portas. Harum vero, quæ Euripidi et diis omnibus invisæ sunt, ego non reprimam
+        præsens audaciam tantam? Ne ergo amplius in Tetrapoli meum sit tropæum. Sed enim hoc mihi
+        viæ conficiendum superest, acclive istud spatium, ad arcem, quo propero; et danda opera, ut
+        protelo ducamus hæc ligna sine jumento; nam mihi bajularii vectes humerum comprimunt.
+        Attamen ire oportet, et sufflare ignem, ne forte extinctus imprudentem me deficiat, quum ad
+        finem viæ pervenero. Fu, Fu. Dii boni, qui fumus! Quam vehemens, ô dive Hercules, adoriens
+        me ex olla, uti rabiosus canis, mordet mihi oculos! Et est Lemnius<endnote
+          orig="Project_Gutenberg" n="25"/> ignis iste omnino: non enim alioqui morsu sic læsisset
+        gramias meas. Festina ad arcem et fer opem Divæ: quando enim ei magis quam nunc succurremus?
+        Fu, fu. Dii boni, qui fumus! Istic quidem ignis deûm favore vigilat et vivit. Quidni ergo,
+        depositis hic vectibus, viteam facem in ollam immittimus, accendimus, et in januam
+        arietamus? Et nisi, quum eas vocabimus, arcis claustra laxent mulieres, incendere oportet
+        fores, et fumo premere. Deponamus jam onus. Vah! quantus fumus! papæ! Quis e Samiæ
+        expeditionis ducibus nobis opitulabitur, manumque vectibus admovebit?<endnote
+          orig="Project_Gutenberg" n="26"/> Desierunt tandem illi dorsum meum premere. At tuum est,
+        olla, carbones excitare: fac tædam incensam quamprimum mihi feras. Diva Victoria ades, daque
+        nobis, ut mulierum, quæ arcem tenent, præsentem istam audaciam reprimamus, et tropæum
+        erigamus.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Flammam et fumum videor mihi cernere, ô mulieres,
+        tanquam ardentis ignis: festinandum est ocius.<endnote orig="transcriber" n="9"/>
+        <endnote orig="Project_Gutenberg" n="27"/></speech>
+
+      <speech><spkr name="SEMICH">SEMICH.</spkr> Vola, vola, Nicodice, priusquam incendantur Calyca
+        et Critylla, flatu undique oppressæ, a legibus durissimis et perditis senibus.</speech>
+
+      <speech><spkr name="SEMICH">SEMICH.</spkr> At hoc timeo: num tardiore gradu succurro? nam,
+        postquam primo diluculo urnam e fonte ægre implevi, ob turbam et tumultum et strepitum
+        ollarum, inter ancillas stigmatiasque servos pulsata, raptim sublata urna, popularibus meis
+        adustis nunc demum aquam ferens succurro. Audivi enim capulares senes, stipites ferentes,
+        tanquam balneum calefacturos, trium circiter talentûm pondere, impetu ad arcem ire,
+        atrocissimis verbis minaciter dicentes, comburendas esse sceleratas mulieres: quas, ô Diva,
+        ne videam ego ambustas unquam, sed Græciam et cives nostros earum opera bello et furore
+        liberatos. Eapropter, aurea galea fulgens urbis Præses, tuas sedes occuparunt: teque voco
+        adjutricem, si quis illas vir incenderit, ut feras nobiscum aquam.</speech>
+
+      <speech><spkr name="STRAT">STRAT.</spkr> Omitte, oh! quid hoc est, viri improbissimi? Nunquam
+        enim probi, aut pii hoc fecissent viri!</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Hanc rem inexpectatam cernimus nobis evenire:
+        mulierum examen foribus<endnote orig="transcriber" n="10"/> succurrit.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Quid nos formidatis? numquid multæ videmur esse?
+        atqui partem nostrûm decem-millesimam nondum videtis.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> O Phædria, hasce garrire tam multa sinemus? nonne
+        oportet aliquem nostrûm has verberando baculum frangere?</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Deponamus jam urnas nos etiam humi, ut ne
+        impedimento mihi sit, si quis manum admoverit.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Næ hercle, si quis jam maxillas istarum, tanquam
+          Bupali,<endnote orig="Project_Gutenberg" n="28"/> bis aut ter tutudisset, vocem non
+        haberent.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Atqui en, tundat aliquis: stans ego os præbebo, et
+        nunquam alia canis testiculis te prehendet.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Ni taces, verberando te senectutis meæ vires
+        exhauriam.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Accede modo, et digito tange Stratyllida.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Quid, si contundam eam pugnis? quid mihi facies
+        mali?</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Mordicus tibi pulmones et intestina
+        extraham.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Non est Euripide poëta sapientior. Nullum enim
+        animal æque impudens est, atque mulieres.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Tollamus nos aquæ urnam, ô Rhodippe.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Cur tu, ô diis invisa, huc venisti cum
+        aqua?</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Tu vero cur cum igne, senex Acheruntice? an ut
+        teipsum combusturus?<endnote orig="transcriber" n="11"/></speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Ego, ut aggesta pyra incendam tuas
+        amicas.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Ego vero, ut tuam pyram ista restinguam
+        aqua.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Tu meum ignem restinguas?</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Res ipsa mox indicabit.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Nescis, an ista lampade mox te ustulem?</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Si forte sordes habes, balneum tibi
+        præbebo.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Tu mihi balneum, obsoleta?</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Et quidem nuptiale.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Audistin' ejus audaciam?</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Enimvero libera sum.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Reprimam ego tibi hunc clamorem.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Sed non amplius judex in Heliæa sedebis.<endnote
+          orig="Project_Gutenberg" n="29"/></speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Incende comas ejus.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Tuæ sunt partes, ô Acheloë.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Væ misero mihi!</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Num calida erat?</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Quid calida? nonne desines? quid facis?</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Irrigo te, ut regermines. CHOR SEN. Sed aridus jam
+        sum et tremulus.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Itaque, quum ignem habeas, teipsum
+        tepefacies.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Satin' emicuit mulierum luxuria, et tympanorum
+        pulsatio, et frequentes Bacchationes, et illa in ædium tectis Adonia<endnote
+          orig="Project_Gutenberg" n="30"/> celebrantium lamenta, quæ ego, quum essem in
+          concione,<endnote orig="Project_Gutenberg" n="31"/> audiebam. Demostratus<endnote
+          orig="Project_Gutenberg" n="32"/> enim, dignus ille hercle qui male pereat, dicebat
+        navigandum esse in Siciliam: mulier autem tripudians, _hei, hei, Adoni_, inquit. Porro
+        Demostratus dicebat milites gravis armaturæ esse conscribendos e Zacyntho:<endnote
+          orig="Project_Gutenberg" n="33"/> mulier autem in tecto temulenta, _Plangite Adonin_, ait.
+        Contra omni studio enitebatur diis invisus ille et scelestus Cholozyges.<endnote
+          orig="Project_Gutenberg" n="34"/> Tales earum sunt obscenæ cantilenæ.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Quid, si audias harum insolentiam? quæ tum aliis
+        contumeliis nos adfecerunt, tum etiam effusis urnis nos lavarunt, ita ut vestes nobis
+        quatiendæ sint, tanquam si imminxissemus.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Merito sane, ita me Neptunus amet marinus. Quum enim
+        nos adjutores simus nequitiæ mulierum, easque luxuriam doceamus, hujusmodi nascuntur ab
+        illis consilia. Qui talia dicimus in officinis opificum: _O aurifex, monili, quod
+        fabricaveras uxori meæ, dum ea vesperi saltabat, glans excidit ex foramine; mihi quidem
+        navigandum est in Salaminem: tu autem, si vacat, quovis pacto circa vesperam veni, et ei
+        glandem inferas._<endnote orig="transcriber" n="12"/> Porro alius quispiam hæc ad sutorem
+        dicit, juvenem, et qui penem habet haudquaquam puerilem: _O sutor, uxoris meæ pedis
+        digitulum premit corrigia, utpote tenellum: hanc itaque tu meridie veniens, laxa, ut latior
+        fiat._ Talia ex istis evenire solent, siquidem ego, qui Provisor sum, quum nunc, scriptis
+        remigibus, pecunia opus sit, portis excludor a mulieribus.<endnote orig="Project_Gutenberg"
+          n="35"/> Sed nihil proderit ad hunc modum stetisse: cedo vectes, ut illarum contumeliam
+        retundam. Quid obstupescis, miser? Tu etiam, quo respicis, qui nihil præter cauponam
+        spectas, nonne admotis ad portas vectibus eas istinc revellitis? hinc ego etiam simul
+        vellam.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ne revellite: ultro enim ipsa exeo. Quid vectibus est
+        opus? non enim tam vectibus opus est, quam sana mente.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Siccine vero impurissima? ubi est Sagittarius?
+        comprehende istam, et manus ei post tergum liga.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Per Dianam juro, extremam mihi si manum admoverit,
+        publicus sit licet minister, flebit.<endnote orig="transcriber" n="13"/></speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Heus tu, pavesne? nonne corripies mediam, tuque cum
+        isto una, et properabitis ligare?</speech>
+
+      <speech><spkr name="STRAT">STRAT.</spkr> Per Pandroson juro, si huic tantum manum injicies,
+        mox cacabis calcatus.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Ecce vero _cacabis!_ Ubi est alter sagittarius? Hanc
+        primam constringe, quia occepit loqui.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Per Luciferam Dianam juro, si hanc digito
+          attigeres,<endnote orig="transcriber" n="14"/> cyathum mox petes.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Quid hoc est? ubi sagittarius? hanc retine. Faxo ego,
+        ut desinatis huc exire.</speech>
+
+      <speech><spkr name="STRAT">STRAT.</spkr> Per Tauricam Dianam juro, si ad hanc accesseris,
+        evellam tibi capillos cum largo tuo fletu.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Heu me miserum! deseruit me sagittarius, sed mulieribus
+        cedere prorsus nos dedecet. Quin instructa acie obviam eis eamus, ô Scythæ.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Edepol ergo experiemini et apud nos intus esse quatuor
+        cohortes pugnacium mulierum armis instructarum.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Retorquete manus earum, ô Scythæ.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> O sociæ mulieres, procurrite foras: ô quæ in foro semina,
+        ova et olera venditis: ô cauponæ, quæ allia et panes venditis, nonne trahetis, nonne
+        ferietis, nonne propulsabitis, nonne conviciabimini, nonne impudenter agetis? desinite,
+        recedite, spolia ne detrahite.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Hei mihi! quam male res successit meis
+        sagittariis!</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Sed quidnam arbitrabaris? an ancillas aggredi te putasti?
+        aut mulieribus bilem inesse non existimas?</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Immo hercle perquam multam, si prope sit
+        caupo.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> O qui multa incassum verba effudisti, Provisor
+        hujus urbis, cur cum hisce bestiis verbis velitationi te committis? nescis quali balneo istæ
+        nos modo laverint indutos vestibus, idque sine lixivio.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Sed, ô bone, non oportet aliis temere admovere
+        manum: sin hoc feceris, omnino tibi tumebunt oculi. Modeste enim ego, tanquam virgo, sedere
+        volo, nemini hîc molestiam adferens, ne festucam quidem loco movens, dum ne quis me premat
+        et irritet tanquam crabrones.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> O Jupiter! quid faciemus istis bestiis? hæc enim
+        sunt intolerabilia. Sed inquirendum tibi mecum est in hoc malum, quid volentes
+          Cranaam<endnote orig="Project_Gutenberg" n="36"/> occupaverint, curque petricosam
+        inaccessam arcem, sacrum templum. Sed interroga et ne crede, et adhibe omnia argumenta.
+        Turpe enim nobis inexploratam rem ejusmodi sinere nostra negligentia.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Equidem hercle hoc primum cupio ex ipsis quærere: quid
+        volentes arcem nostram repagulis occlusistis?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ut pecuniam salvam præstaremus, nec propter eam
+        bellaretis.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Propter pecuniam ergo bellamus?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quin cetera omnia turbata sunt. Pisander<endnote
+          orig="Project_Gutenberg" n="37"/> enim, et qui magistratus ambiunt, ut habeant quod
+        depeculentur, semper aliquas turbas concitare solent. Jam vero faciant quidquid libuerit:
+        nam ex ista pecunia nihil amplius deproment.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Quid facies ergo?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Rogas? Nos eam dispensabimus.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Vosne pecuniam dispensabitis?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quid mirum tibi videtur? nonne utique domi penum omnem
+        vobis dispensamus?</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Sed non eadem res est.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quomodo non eadem?</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Hinc bellum gerendum est.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> At primum nihil opus est belligerare.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Quonam ergo alio modo servabimur?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Nos servabimus vos.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Vosne?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Nos vero.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Indignum hoc quidem.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Servaberis tamen, etiamsi nolis.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Rem atrocem dicis.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Stomacharis: attamen hoc tibi faciendum est.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Per Cererem, iniquum est.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Habenda salus est, ô bone.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Et si non opus mihi sit ea?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Eapropter multo magis.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Sed vobis unde in mentem venit, ut bellum et pacem
+        curaretis?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Id vobis dicemus.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Dic igitur ocius, ne plores.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ausculta jam, et conator manus comprimere.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Sed non possum: mihi enim præ iracundia difficile est
+        eas cohibere.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ergo multo magis plorabis.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Istuc quidem, ô vetula, tuo capiti crocitaveris: tu
+        vero mihi quæ ad rem sint dicito.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Hoc agam. Superiore quidem bello et tempore tulimus
+        patienter modestia nostra vos viros, quidquid ageretis; non enim sinebatis nos mutire,
+        postea non placebatis nobis: sed sentiebamus satis quid ageretis: domique sæpe audivimus vos
+        magnis de rebus mala consilia cepisse. Deinde interno dolore ægræ cum risu interrogabamus
+        vos: _Quid vobis hodie in concione constitutum est columnæ inscribere de pace?_ Tum<endnote
+          orig="transcriber" n="15"/> vir, _Quid hoc ad te_, aiebat, _nonne tacebis_? Et ego
+        tacebam.</speech>
+
+      <speech><spkr name="MUL">MUL.</spkr> QUÆD. At ego nunquam tacuissem.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> At plorasses, nisi tacuisses.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ego vero domi tacebam. Audito forte alio quo deteriori
+        consilio vestro, quærere solebamus: _Mi vir, quî fit, ut hæc tam stulte agatis?_ At ille
+        statim limis me intuens dicebat: _Nisi subtemen neveris, dolebit tibi caput diu: bellum
+        autem curabunt viri._</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Recte quidem ille hercle dicebat.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quonam modo _recte_, ô perdite, si nobis nec submonere
+        vos licuit, prava consilia agitantes? sed quum jam vos audiremus per compita palam dicentes:
+        _Non est vir in urbe, non hercle quisquam est alius;_ posthæc statim Græciam servare
+        communiter visum est mulieribus congregatis: cur enim fuisset diutius expectandum? Si igitur
+        nobis meliora suadentibus vicissim volueritis auscultare et vicissim tacere, ut nos tunc,
+        fieri possit, ut vos restituamus.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Vosne nos restituatis? sane acerbum dictu et
+        intolerabile.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Tace.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Tuone jussu, ô scelesta, taceam ego? idque præsertim
+        quum flammeo caput obtectum habeas? emori me malim.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Sed si istuc solum tibi est impedimento, flammeum hocce a
+        me acceptum circumpone capiti tuo, deinde tace. Hunc etiam sume calathum, et succinctus
+        lanam carpe, fabas esitans: _bellum autem curabunt mulieres._</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Recedite, ô mulieres, ab urnis, ut et nos vicissim
+        amicis nostris opitulemur. Ego enim nunquam defetiscar saltando, neque lassitudo molesta
+        capiet genua mea: voloque adire omne periculum cum istis, virtutis causa, quibus inest
+        ingenium, inest gratia, inest audacia, inest et sapientia, inest addicta reipublicæ virtus
+        cum prudentia conjuncta. Sed ô fortissimarum aviarum, et tactu urentium matercularum
+        progenies, ite animo ardenti et ne mitescite: nam adhuc secundo vento curritis.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Sed si Cupido ille dulcis, et Cypria Venus, amorem vobis
+        in sinum et in femina inspiraverit; deinde vero si viris tentiginem jucundam ingeneraverit,
+        ut quasi baculos penes erigant, spero fore aliquando, ut _Lysimachæ_ a Græcis
+        vocitemur.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Quodnam ob facinus?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Si effecerimus, ut desinant cum armis in foro versari et
+        insanire.</speech>
+
+      <speech><spkr name="MUL">MUL.</spkr> QUÆD. Maxime,<endnote orig="transcriber" n="16"/> ita me
+        Paphia Venus amet.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Nunc enim et qua ollæ, et qua venduntur olera, obambulant
+        per forum cum armis, quasi Corybantes.<endnote orig="Project_Gutenberg" n="38"/></speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Ita hercle: sic enim fortes decet.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Profecto res est ridicula, si quis clypeum Gorgonis
+        capite insignitum tenens, emat coracinos.</speech>
+
+      <speech><spkr name="MUL">MUL.</spkr> QUÆD. Vidi equidem ecastor comatum quemdam equitum
+          tribunum,<endnote orig="Project_Gutenberg" n="39"/> qui equo insidens in æreum pileum
+        injiciebat ovum a vetula sumtum. Thrax vero alius peltam quatiens et jaculum, uti
+          Tereus,<endnote orig="Project_Gutenberg" n="40"/> terrefaciebat caricarum venditricem, et
+        ficus maturas deglutiebat.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Quomodo igitur poteritis vos turbatas res multas
+        sedare, et dissolvere in regionibus?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Perfacile.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Quomodo? ostende.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Sicuti fila, quum nobis sunt turbata, sic prehendimus, et
+        subducimus fusis hac et illac; ita et bellum istud dissolvemus, si quis sinat, diducentes id
+        per legationes hac et illac.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Ex lana ergo et filis et fusis res periculosas, ô
+        fatuæ, vos putatis sedaturas?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Et vos, si vobis aliquid inesset sanæ mentis, ex nostro
+        lanificio sumto exemplo rempublicam administraretis.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Quidum? fac videam.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Primum quidem oportebat vos, tanquam lanam in balneo,
+        eluentes sordes, homines nequam præcipites ex urbe virgis expellere, et tribulos seligere;
+        et istos qui inter se cohærent, et sese trudunt, magistratus affectantes, distrahere,
+        eorumque capita defloccare: deinde omnes in calathum carminare communem benevolentiam,
+        immiscendo et inquilinos, et si quis hospes aut amicus sit vobis; et si quis debeat ærario,
+        hos quoque immiscendo. Quin etiam urbes, quas deducti ex hac terra coloni tenent, scire vos
+        oportebat veluti glomeres quosdam nobis jacere, seorsum singulas: deinde ab istis omnibus
+        sumere oportebat filum, hucque adducere, et omnia in unum cogere, deinde facere glomerem
+        magnum, et ex eo texere Populo lænam.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Nonne indignum est hæc istas lanæ instar purgare et
+        glomerare, quæ belli minime participes sunt?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Atqui, ô sceleratissime, plusquam duplum id ferimus, quæ
+        primum quidem peperimus filios, et armatos emisimus.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Tace: noli meminisse malorum.<endnote
+          orig="Project_Gutenberg" n="41"/></speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Deinde, quando oportet nos oblectari, et flore ætatis
+        frui, solæ cubamus ob militiam. At quod nostra intersit mittite: discrucior vero propter
+        virgines in thalamis consenescentes.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Non ergo et viri senescunt?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Edepol longe diversum est quod dicis. Vir enim peregre
+        adveniens, etiamsi canus sit, cito puellam ducit virginem: mulieris autem brevis est
+        opportunitas, quam nisi apprehendat, nemo vult eam ducere: sedet autem omnia
+        captans.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Sed quicunque senex penem adhuc arrigere
+        valet—</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Tu ergo cur non moreris? morti tempestivus es. Sandapilam
+        emes: utique mellitam tibi placentam pinsam. Sume hanc corollam et cinge caput.</speech>
+
+      <speech><spkr name="MUL">MUL. I.</spkr> Et istas vittas accipe a me.</speech>
+
+      <speech><spkr name="MUL">MUL. II.</spkr> Et hanc cape coronam.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quid tibi deest? quid desideras? Vade in navem; te Charon
+        vocat: in mora es, quominus in altum provehatur.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Nonne acerbum est hoc me pati? sed mehercle certum est
+        ad collegas ire cum isto ornatu, et meipsum iis ostendere.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Num expostulas, quod te non collocavimus?<endnote
+          orig="Project_Gutenberg" n="42"/> sed post tertium diem a nobis venient tibi summo mane
+        tridualia parata.<endnote orig="Project_Gutenberg" n="43"/></speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Non amplius decet dormire, quicunque est liber;
+        sed accingamus nos, viri, ad hoc negotium. Jam enim hæc res plura et majora olere facinora
+        mihi videtur: et præcipue odoror Hippiæ tyrannidem;<endnote orig="Project_Gutenberg" n="44"
+        /> metuoque valde, ne Lacones aliqui viri huc convenerint in Clisthenis domum, et has diis
+        invisas mulieres dolo incitent, ut occupent opes nostras, et mercedem, unde ego
+          victitabam.<endnote orig="Project_Gutenberg" n="45"/> Indignum enim est ab istis admoneri
+        cives, easque, mulieres quum sint, loqui de æreo clypeo, et insuper nobiscum agere de pace
+        cum Laconibus, quibus non plus inest fidei, quam hianti lupo. Sed, ô viri, hæc illæ
+        texuerunt ad tyrannidem occupandam. At enim nunquam mihi dominabuntur, siquidem cavebo, et
+        _gestabo gladium deinceps in myrti ramo_, et in foro stabo armatus prope
+          Aristogitonem.<endnote orig="Project_Gutenberg" n="46"/> Hoc modo autem stabo juxta ipsum:
+        ipse enim mihi auctor est, ut hujus diis invisæ vetulæ percutiam maxillam.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> At vos domum ingressos ne mater ipsa agnoverit.
+        Sed, ô carissimæ vetulæ, primum hæc humi deponamus. Nos enim, ô cives, orationem exordimur
+        civitati utilem; atque adeo merito: nam illa in deliciis splendide educavit me. Septem annos
+        nata statim arcana in Minervæ pompa gestavi: deinde molitrix fui:<endnote
+          orig="Project_Gutenberg" n="47"/> tum decennis, Dianæ dominæ, fluenti crocota amicta,
+        Brauroniis consecrata fui: demum adulta virgo canistrum gestavi,<endnote
+          orig="Project_Gutenberg" n="48"/> habens caricarum catenam. Numquid ego debeo civitati
+        suadere utilia? licet autem femina nata sim, absit invidia, si meliora præsentibus adferam:
+        nam symbolæ etiam ego particeps sum, quippe quæ viros in commune adfero: vobis autem miseris
+        senibus nulla hujus pars est. Nam symbolam avorum, quæ dicitur, collatam ex Medorum
+          spoliis,<endnote orig="Project_Gutenberg" n="49"/> quum consumseritis, non vicissim
+        adfertis tributa: sed insuper etiam periculum est, ne a vobis perdamur. Num ergo mutire
+        licet vobis? Si autem molestus mihi eris, crudo hoc cothurno buccam tibi percutiam.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Annon hæc contumelia est magna? quin et
+        incrementum res captura mihi videtur magis. Sed obviam ire oportet huic malo, quicunque
+        coleatus est vir. Sed exomidem exuamus. Nam vir debet olere statim virum, nec decet vestibus
+        involutum esse. Sed agite lupipedes,<endnote orig="transcriber" n="17"/> quicunque ad
+          Lipsydrium<endnote orig="Project_Gutenberg" n="50"/> convenimus, quum adhuc essemus: nunc
+        oportet, nunc adsumere rursus juvenile robur, et extollere totum corpus, et decutere senium
+        hocce. Si enim quis nostrûm hisce vel exiguam ansam dederit, nihil remittent illæ ab adsiduo
+        labore; verum et naves fabricabunt, et adhuc conabuntur navalibus præliis decertare, et
+        contra nos navigare, ut Artemisia:<endnote orig="Project_Gutenberg" n="51"/> sin ad
+        equitandum se convertant, deleo dehinc equites nostros ex catalogo. Nam equo maxime<endnote
+          orig="transcriber" n="18"/> gaudet, eique firmiter invehit mulier;<endnote
+          orig="Project_Gutenberg" n="52"/> nec currente facile deciderit: specta sis Amazonas, quas
+        Micon pinxit in equis pugnantes cum viris.<endnote orig="Project_Gutenberg" n="53"/> Sed
+        istarum omnium in numellam indere hoc collum oportet.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Ecastor, si me irritassis, suem meam laxabo jam,
+        et faxo hodie, ut vellicatus populares tuos inclames. Sed et nos, ô mulieres, ocius exuamur,
+        ut oleamus feminas pertinaciter iratas. Nunc ad me veniat aliquis, ut ne amplius comedat
+        allia neque fabas nigras. Nam si dixeris tantum male, sum enim valde irata, _aquilæ parienti
+        scarabæus tibi ero obstetrix._<endnote orig="Project_Gutenberg" n="54"/></speech>
+
+      <speech><spkr name="MUL">MUL.</spkr> QUÆD. Vos enim nihili faciam, si mihi vivat Lampito, et
+        Thebana amica nobilis Ismenia. Non enim potis eris, nec si septies decreta facias, qui odio
+        es, ô perdite, omnibus et vicinis. Nam et heri, quum Hecatæ festum ludicrum instituerem,
+        liberis meis amicam arcessivi ex vicinia, puellam bonam et amabilem, Bœotiam anguillam: illi
+        autem negarunt se missuros propter tua decreta. Nec unquam hujuscemodi decreta facere
+        desinetis, priusquam vos aliquis crure arreptos in præceps dejiciat. </speech>
+
+    </scene>
+
+    <scene>
+      <sceneChars cList="CHORUS MULIERUM, LYSISTRATA, MULIERES QUÆDAM, CHORUS SENUM, SENEX QUIDAM"
+        >CHORUS MULIERUM, LYSISTRATA, MULIERES QUÆDAM, CHORUS SENUM, SENEX QUIDAM</sceneChars>
+
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Dux facinoris hujus et consili, cur mihi tristis
+        exivisti ex ædibus?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Malarum feminarum facta et muliebris animus anxiam me
+        reddunt, et sursum deorsum agunt.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Quid ais? quid ais?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Vera, vera.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Quid mali est? dic nobis, quæ amicæ tuæ
+        sumus.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Sed turpe est dicere, et difficile reticere.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Ne me celes, quid nobis evenerit male.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Prurimus libidine, ut brevissime dicam.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Io Jupiter!</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quid Jovem inclamas? hæc sane ita habent. Equidem eas
+        abstinere non amplius possum a viris: aufugiunt enim. Primam quidem deprehendi foramen
+          pertundentem,<endnote orig="transcriber" n="19"/> ubi Panos est sacellum: aliam e trochlea
+        sese devolventem: aliam vero transfugium parantem: porro unam, passeri insidentem, jam
+        volare cogitantem deorsum in domum Orsilochi,<endnote orig="Project_Gutenberg" n="55"/>
+        crinibus prehensam heri retraxi: omnesque prætextus extundunt domum abuendi. Jam quædam
+        earum venit. Heus tu, quorsum curris?</speech>
+
+      <speech><spkr name="MUL">MUL. I.</spkr> Domum ire volo: domi enim mihi est lana Milesia, quam
+        tineæ rodunt.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quæ tineæ? nonne ibis retro?</speech>
+
+      <speech><spkr name="MUL">MUL. I.</spkr> Sed cito revortar, per Divas juro, dummodo in lecto
+        extendero—</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ne extende, neque abeas usquam.</speech>
+
+      <speech><spkr name="MUL">MUL. I.</spkr> Sed lanamne perire sinam?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ita, si necesse sit.</speech>
+
+      <speech><spkr name="MUL">MUL. II.</spkr> Me miseram, me miseram, ob amorgidem, quam reliqui
+        domi non decorticatam.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> En alia, ad amorgin non decorticatam quæ egreditur. Redi
+        huc.</speech>
+
+      <speech><spkr name="MUL">MUL. II.</spkr> At per Luciferam juro, me actutum inde huc redituram,
+        ubi eam decorticavero.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Noli decorticare: nam si tu istuc inceptaveris, itidem
+        alia mulier facere volet.</speech>
+
+      <speech><spkr name="MUL">MUL. III.</spkr> O diva Lucina, retine partum, donec in locum
+        profanum ivero.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quid nugaris ita?</speech>
+
+      <speech><spkr name="MUL">MUL. III.</spkr> Jamjam pariam.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Atqui heri non eras prægnas.</speech>
+
+      <speech><spkr name="MUL">MUL. III.</spkr> Verum hodie. Sed domum me ad obstetricem, ô
+        Lysistrata, dimitte quam primum.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quam fabulam narras? quid habes hic duri?</speech>
+
+      <speech><spkr name="MUL">MUL. III.</spkr> Masculum infantem.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Non tu ecastor. Profecto ahenum habere quoddam videris
+        cavum. Sciam modo. O ridicula! sacram galeam habes, et prægnatem te esse dicis.</speech>
+
+      <speech><spkr name="MUL">MUL. III.</spkr> Et edepol prægnans<endnote orig="transcriber" n="20"
+        /> sum.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Cur ergo hanc habebas?</speech>
+
+      <speech><spkr name="MUL">MUL. III.</spkr> Ut, si me occupasset partus adhuc in arce, parerem
+        in galeam istam ingressa, ut columbæ.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quid dicis? cur manifestæ rei verba prætendis? non
+        lustricum galeæ diem hic expectabis?</speech>
+
+      <speech><spkr name="MUL">MUL. IV.</spkr> At non possum amplius ne quidem dormire in arce, ex
+        quo serpentem illum ædituum vidi.</speech>
+
+      <speech><spkr name="MUL">MUL. V.</spkr> Ego vero misera pereo insomnia ob continuum
+          titubantium<endnote orig="transcriber" n="21"/> noctuarum clangorem.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> O scelestæ, mittite ficta ista portenta. Fortassis viros
+        desideratis. Nos vero nonne putas illis desiderio esse? sat scio, molestas transigunt
+        noctes. Sed, ô bonæ, sustinite fortiter, et durate paululum adhuc. Nobis enim editum est
+        oraculo, superiores nos futuras, si seditionem inter nos non fecerimus. Sic autem habet
+        oraculum.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Dic nobis quid dicat.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Tacete jam. _Sed quando hirundines trepidæ in unum locum
+        convenerint epopas fugientes, abstinebuntque a mentulis, tum finis erit malorum, et summa
+        faciet ima Jupiter altifremens._</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Supra jacebimus nos?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> _Sin dissidium fecerint, et avolarint e sacro templo
+        hirundines, jam non videbitur avis ulla esse lascivior._</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Perspicuum edepol oraculum: ô Cœlites! ne jam
+        despondeamus animum lassitudine, sed ingrediamur. Etenim turpe erit, ô carissimæ, si oraculo
+        defuerimus.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Fabulam volo narrare quandam vobis, quam olim ipse
+        puer audivi: sic autem habet. Erat adolescens quidam Melanion, qui fugiens nuptias abiit in
+        deserta, et in montibus habitabat: deinde lepores venabatur, texens retia, et canem unum
+        habebat. Nec amplius rediit domum, propter odium: adeo mulieres abominatus est ille. Nos
+        vero non minus quam Melanion, qui sumus casti.<endnote orig="Project_Gutenberg" n="56"
+        /></speech>
+
+      <speech><spkr name="SEN">SEN. QUID.</spkr> Volo te osculari, vetula.</speech>
+
+      <speech><spkr name="MUL">MUL.</spkr> QUÆD. Non ergo cepam comedes.</speech>
+
+      <speech><spkr name="SEN">SEN.</spkr> Et sublato crure te calce ferire.</speech>
+
+      <speech><spkr name="MUL">MUL.</spkr> Silvam multam geris.</speech>
+
+      <speech><spkr name="SEN">SEN.</spkr> Nam et Myronides erat hispidus illa parta, nigroque
+        podice, timendus hostibus omnibus: sic etiam Phormio.<endnote orig="Project_Gutenberg"
+          n="57"/></speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Et ego volo fabulam quandam vobis narrare
+        Melanioni respondentem. Timon<endnote orig="Project_Gutenberg" n="58"/> quidam erat
+        implacabilis, inaccessis spinis circumseptus faciem, Furiarum propago. Iste inquam Timon
+        fugit propter odium, multa mala imprecatus improbis viris. Sic ille rursus vestrûm oderat
+        malos viros semper: mulierum autem erat amantissimus.</speech>
+
+      <speech><spkr name="MUL">MUL.</spkr> QUÆD. Visne buccam tibi percutiam?</speech>
+
+      <speech><spkr name="SEN">SEN.</spkr> QUÆD. Haudquaquam timeo.</speech>
+
+      <speech><spkr name="MUL">MUL.</spkr> Sed crure feriam.</speech>
+
+      <speech><spkr name="SEN">SEN.</spkr> Cunnum ostendes.</speech>
+
+      <speech><spkr name="MUL">MUL.</spkr> Sed tamen non videbis, licet vetula sim, eum crinitum, at
+        deglabratum lucernæ flammula.</speech>
+
+
+
+    </scene>
+
+    <scene>
+      <sceneChars cList="LYSISTRATA, MULIERES QUÆDAM, MYRRHINA, CINESIAS, PUER, CHORUS SENUM"
+        >LYSISTRATA, MULIERES QUÆDAM, MYRRHINA, CINESIAS, PUER, CHORUS SENUM</sceneChars>
+
+
+      <speech><spkr name="LYS">LYS.</spkr> Io, io mulieres, venite huc ad me celeriter.</speech>
+
+      <speech><spkr name="MUL">MUL. I.</spkr> Quid est? dic mihi, quis est iste clamor?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Virum, virum video accedere furibundum, Veneris percitum
+        orgiis.</speech>
+
+      <speech><spkr name="MUL">MUL. II.</spkr> O diva, Cypri, et Cytherorum, et Paphi regina, perge
+        recta via, quam institisti.</speech>
+
+      <speech><spkr name="MUL">MUL. I.</spkr> Ubi est, quisquis est?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Apud Cereris.</speech>
+
+      <speech><spkr name="MUL">MUL. I.</spkr> Ecastor, næ est aliquis. Nam quis esse
+        possit?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Videte. Novitne aliqua vestrûm?</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Pol equidem novi: et est meus vir Cinesias.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Tuum sit munus torrere et versare illum, et decipere
+        amando et non amando, et omnia præbere, præter illa, quorum conscius est calix.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Ne sollicita sis: faciam ista ego.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quin et ego hic manens una tecum decipiam et uram istum.
+        Vos autem abite.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Hei mihi misero! quanta discrucior convulsione et
+        tentigine, non secus ac si in rota torquear!</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quis est iste, qui stat cis custodes?</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Ego.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Vir?</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Vir utique.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Nonne ergo hinc facesses?</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Tu vero quænam es, quæ me ejicis?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Diurna speculatrix.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Per deos ergo obsecro, evoca mihi Myrrhinam.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ecce vero! egone ut Myrrhinam tibi vocem? Tu autem, quis
+        es?</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Vir illius, Pæonides Cinesias.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> O salve carissime: non enim obscurum apud nos est tuum
+        nomen, nec ignobile; semper enim te in ore habet uxor tua, et si ovum aut malum sumat,
+        _Cinesiæ sit hoc_, inquit.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Dii vostram fidem!</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ita est, per Venerem juro. Tum si de viris incidat sermo
+        aliquis, statim dicere solet uxor tua, _cetera omnia nugas esse præ Cinesia._</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Agedum voca ipsam.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quid? dabisne aliquid mihi?</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Equidem hercle illico si velis. Habeo autem istud: quod
+        itaque habeo, do tibi.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Descendam igitur, et vocabo eam tibi.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Quam citissime ergo. Nam prorsus ingrata mihi vita est,
+        ex quo exivit illa domo: atque intrare tædet: desolata mihi videntur omnia: neque unquam
+        quicquam me juvat quod edo: nam riget mihi nervus.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Amo equidem, amo illum: sed non vult a me amari.
+        Proinde ne me ad hunc vocaveris.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> O dulcissima Myrrhinula, cur istæc agis? descende
+        huc.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Non ecastor ego illuc descendam.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Ne quidem me vocante, Myrrhina?</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Nihil enim mei indigens me vocas.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Egone nihil indigens? immo perditus.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Abeo.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Noli, quæso: sed saltem puerulo ausculta. Heus tu, nonne
+        vocas matrem?</speech>
+
+      <speech><spkr name="PUER">PUER.</spkr> Mater, mater, mater.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Heus tu, quid agis? nonne te miseret pueruli sextum jam
+        diem illoti et mamma carentis?</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Utique miseret me: sed negligens est ei pater.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Descende, insana, pueruli gratia.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Hem! quale est peperisse! descendendum; quid enim
+        agam?</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Mihi quidem junior illa videtur facta esse multo, et
+        amabilius intueri: et quod se difficilem præbet, meique fastidit, illud ipsum nimirum est,
+        quod me enecat desiderio.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> O dulcissime filiole mali patris, age deosculabor te
+        dulcissimum matri tuæ.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Cur, ô improba, hæc facis, aliisque obsequeris
+        mulieribus? Et me molestia, teque ipsam tædio adficis.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Potin' es ut abstineas manum?</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Quæ nobis autem domi sunt communia bona, perditum
+        is.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Parvi pendo illa.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> An parvi pendis, quod tramam differunt gallinæ.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Ita ecastor.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Veneris orgia non celebrasti tanto tempore. Nonne
+        redibis?</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Haud pol ego, nisi pacem faciatis inter vos, et
+        desinatis belligerare.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Ergo, si tibi ita placet, id etiam faciemus.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Ergo, si tibi ita placet, domum redibo: nunc autem quin
+        redeam sacramento teneor.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Saltem aliquantisper mecum decumbe.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Non sane: etsi non possim negare te a me
+        amari.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Amas? cur ergo non decumbis, ô Myrrhina?</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> O ridende, num præsente puerulo?</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Non hercle. Sed tu, ô Manes, fer eum domum. Ecce puerulus
+        jam tibi hinc amotus: tu vero non decumbes?</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Sed, ô perdite, ubi fieri id potest?</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Ad Panos sacellum percommode.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> At quomodo in arcem casta redire potero?</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Facillume in Clepsydra<endnote orig="Project_Gutenberg"
+          n="59"/> si laveris.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Scilicet, ô perdite, jurata pejerabo.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> In caput meum vertat. De jurejurando ne sis
+        sollicita.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Agedum feram lectulum nobis.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Nequaquam: sufficit nobis humi cubare.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Ita me Apollo juvet, ut ego te, quamvis turgentem
+        libidine, non reclinaverim humi.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Amat me valde, satis apparet, uxor.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> En, decumbe properans, et ego exuo vestes. At, perii!
+        teges efferenda est.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Quæ, malum, teges? haud mihi quidem.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Ita mihi Diana propitia sit: turpe est enim super loris
+        cubare.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Sine deosculer te.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> En.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Papæ! revertere huc ergo quam celerrime.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> En teges. Decumbe: jam exuo vestes. Sed, perii!
+        cervical non habes.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> At nihil opus est mihi.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> At ecastor mihi.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Profecto penis hicce uti Hercules hospitio
+          excipitur.<endnote orig="Project_Gutenberg" n="60"/></speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Surge, subsulta.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Jam omnia habeo.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Itane omnia?</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Agedum, ô aurea.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Jam strophium solvo: tu vero memento, ne, quam dedisti
+        de pace ineunda, fidem fallas.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Peream hercle prius.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Sed lodicem non habes.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Nec hercle opus est: sed futuere volo.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Ne sis sollicitus, et istud facies: cito enim
+        redeo.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Stragulis perdet me hæc femina.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Erigere.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> At iste jamdudum erectus est.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Vin' ut te inungam?</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Ne hoc Apollo sirit.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Per Venerem, velis nolis, inungere.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Utinam, ô supreme Jupiter, effusum fuisset istuc
+        unguentum!</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Porrige manum, sume et inungere.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Istuc hercle unguentum minime est suave, nisi terendo
+        bonum sit; nec concubitum olet.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Me miseram! Rhodium unguentum extuli.<endnote
+          orig="Project_Gutenberg" n="61"/></speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Bonum est: hoc mitte, ô fatua.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Nugaris.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Qui illum dii omnes perduint, qui primus coxit
+        unguentum!</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Cape hoc alabastrum.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Sed aliud habeo. At tu, ô perdita, decumbe, et ne fer
+        mihi quicquam.</speech>
+
+      <speech><spkr name="MYRR">MYRR.</spkr> Istuc agam, ita me Diana amabit. Calceos igitur exeo.
+        Sed, ô carissime, vide, ut decernas aliquid de pace facienda.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Consulam—Perdidit me et adtrivit mulier tum aliis
+        omnibus, tum quod me excoriatum relinquens abiit. Hei mihi! quid faciam? quem futuam,
+        postquam spe excidi potiundæ pulcherrimæ? quomodo hancce educabo? ubi Cynalopex? loca mihi
+        mercede nutricem.<endnote orig="Project_Gutenberg" n="62"/></speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> In maxumis malis, ô infelix, et animi angore
+        cruciaris; et me tui miseret. Heu! heu!<endnote orig="transcriber" n="22"/> Quinam renes
+        possint durare? quis animus? qui colei? quis lumbus? quis penis intentus, nec mane permolens
+        aliquam?</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> O Jupiter! quam diræ convulsiones!</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Ita de te merita est execrabilis et scelesta
+        illa.</speech>
+
+      <speech><spkr name="CIN">CIN.</spkr> Immo hercle cara et dulcissima.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Quid, malum, _dulcissima?_ Scelerata, scelerata
+        utique. O Jupiter, ô utinam ipsam, velut acervos acerum, magno venti turbine contortam et
+        rotatam auferas, deinde dimittas: illa autem rursus feratur in terram: deinde repente in
+        mentulam incidat et infigatur!</speech>
+
+
+
+    </scene>
+
+    <scene>
+      <sceneChars cList="CADUCEATOR LACEDÆMONIORUM, PROVISOR, CHORUS SENUM, CHORUS MULIERUM"
+        >CADUCEATOR LACEDÆMONIORUM, PROVISOR, CHORUS SENUM, CHORUS MULIERUM</sceneChars>
+
+
+      <speech><spkr name="CAD">CAD.</spkr> Ubi Athenarum est Senatus, aut ubi sunt Magistratus? Volo
+        aliquid novi dicere.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Tu vero quis es? utrum homo, an Conissalus?<endnote
+          orig="Project_Gutenberg" n="63"/></speech>
+
+      <speech><spkr name="CAD">CAD.</spkr> Caduceator ego sum, ô stulte: testor deos geminos: veni
+        Sparta, pacis conciliandæ gratia.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Ergone advenisti hastam sub axilla gerens?</speech>
+
+      <speech><spkr name="CAD">CAD.</spkr> Non ego hercle.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Quo te versas? quidve prætendis sagum? an dolent tibi
+        inguina ex itinere?</speech>
+
+      <speech><spkr name="CAD">CAD.</spkr> Ineptus mecastor est hic homo.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Sed arrigis, impurissime.</speech>
+
+      <speech><spkr name="CAD">CAD.</spkr> Non ego hercle: noli nugari.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> At quid est hoc tibi?</speech>
+
+      <speech><spkr name="CAD">CAD.</spkr> Scytala Laconica.<endnote orig="Project_Gutenberg" n="64"
+        /></speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Sit modo hæc scytala Laconica: sed mihi, tanquam
+        scienti, dic verum: quomodo sese res vestræ habent Lacedæmone?</speech>
+
+      <speech><spkr name="CAD">CAD.</spkr> Erecta est universa Lacedæmon, et socii omnes arrigunt:
+          Pellena<endnote orig="Project_Gutenberg" n="65"/> opus est.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Undenam istud malum in vos inguit? num a Panos
+        ira?</speech>
+
+      <speech><spkr name="CAD">CAD.</spkr> Non. Principium quidem sola Lampito: deinde ceteræ simul
+        Spartanæ mulieres uno conensu viros a cunnis abegerunt.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> Quomodo ergo habetis?</speech>
+
+      <speech><spkr name="CAD">CAD.</spkr> Ærumnis conficimur: nam per urbem incurvi ambulamus,
+        tanquam lucernas gestantes: mulieres autem ne tangi quidem sibi cunnum a nobis patiuntur,
+        priusquam omnes unanimi consilio pacem faciamus cum Græcia.</speech>
+
+      <speech><spkr name="PROV">PROV.</spkr> In hanc rem undique conjurarunt mulieres: nunc demum
+          intelligo.<endnote orig="transcriber" n="23"/> Sed quamprimum renuntia, ut de pace legatos
+        plena cum potestate huc mittant: ego vero Senatui dicam, ut alios hinc lectos mittant
+        legatos, ostendens hunc penem.</speech>
+
+      <speech><spkr name="CAD">CAD.</spkr> Volabo: nam optime prorsus autumas.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Nulla est bestia muliere inexpugnabilior, nec
+        ignis, nec ulla pardalis tam impudens.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Hæc vero ita esse intelligis,<endnote
+          orig="transcriber" n="24"/> et bellum geris, dic mihi, quum tibi nunc, ô improbe, liceat
+        certam me habere amicam.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Equidem mulieres odisse non desinam.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Sed quando voles, desines: nunc autem non patiar
+        te nudum sic esse: video enim, quam sis ridiculus. Verum accedam, et tibi hanc exomidem
+        induam.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Istuc quidem hercle non perperam facitis: verum
+        præ iracundia illam modo exui.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Primo quidem vir videris: deinde non es ridiculus:
+        et nisi mihi molestus fuisses, ego tibi hanc bestiolam, quæ oculo tuo nunc insidet,
+        prehensam exemissem.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Hoc nimirum erat, quod me cruciabat, mordaculus
+        ille. Erue id: et ubi detraxeris, ostende mihi. Nam dudum hercle oculum mihi
+        morsicat.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Sed faciam id, etsi homo sis morosus. O Jupiter!
+        ingens utique aspectu culex inest tibi. Nonne vides? annon iste culex est
+          Tricorysius?<endnote orig="Project_Gutenberg" n="66"/></speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Edepol me beasti. Nam dudum me fodiebat, quasi
+        puteum faceret: itaque, postquam exemtus est, fluit mihi lacrima largiter.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Sed detergam ego te, etsi valde sis malus; et
+        osculabor.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Ne osculeris.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Velis nolis, tamen.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Male pereatis, ut estis ingenio ad blandiendum
+        composito! et est vetus illud verbum vere et non perperam dictum: _Neque cum
+        perniciosissimis, neque sine perniciosissimis._</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Sed nunc tecum paciscor, me deinceps nec facturam
+        amplius vobis, nec passuram a vobis quicquam mali: sed jam cœtu facto incipiamus una
+        canticum. Ita nos, ô viri comparamus, ut nulli civium ne minimum quidem male dicamus: sed
+        contra potius omnia bona et dicamus et faciamus: etenim sufficiunt præsentia hæc mala. Sed
+        profiteatur quicunque vir aut femina pecunia eget, et accipere vult minas duas aut
+          tres:<endnote orig="Project_Gutenberg" n="67"/> nam plurimum est intus, nosque habemus
+        cruminas: et si aliquando Pax exoriatur, quicunque nunc mutuabitur, is quæ a nobis acceperit
+        nunquam reddet. Convivio autem excepturæ sumus hospites quosdam Carystios,<endnote
+          orig="Project_Gutenberg" n="68"/> viros bonos et fortes: et est nonnihil pultis: et
+        porcellus erat mihi, quem mactavi: sicque carnes habebitis teneras et bonas. Venite ergo in
+        domum meam hodie: tempori autem oportet hoc facere lotos, vos ipsos et liberos vestros;
+        deinde intro ire, nec quemquam interrogare: sed recta ingredi, tanquam in domos vestras,
+        strenue. Fortassis autem janua erit clausa.<endnote orig="Project_Gutenberg" n="69"
+        /></speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Sed e Sparta isti legati, trahentes barbas,
+        adveniunt, quasi paxillum, cui porcelli adligantur,<endnote orig="Project_Gutenberg" n="70"
+        /> circa femora habentes.<endnote orig="transcriber" n="25"/></speech>
+
+    </scene>
+
+    <scene>
+      <sceneChars
+        cList="CHORUS SENUM, LEGATI, LACEDÆMONIORUM, POLYCHARIDES, LYSISTRATA, CHORUS MULIERUM, CIRCUMFORANEI QUIDAM, FAMULUS, ATHENIENSIS QUIDAM"
+        >CHORUS SENUM, LEGATI, LACEDÆMONIORUM, POLYCHARIDES, LYSISTRATA, CHORUS MULIERUM,
+        CIRCUMFORANEI QUIDAM, FAMULUS, ATHENIENSIS QUIDAM</sceneChars>
+
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Primum quidem, ô Lacones, salvete: deinde dicite
+        nobis quo in statu huc veneritis.</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> Cur vobis rem multis verbis narremus? cernere licet, quo
+        in statu venerimus.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Papæ! huic malo intenduntur nervi perquam
+        vehementer; gliscitque fervor pejorem in modum.</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> Res verbis adumbrari nequit: quid verbis opus est? sed
+        veniat quis, et quo tandem pacto voluerit, pacem nobis constituat.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Atqui et istos conspicor indigenas, tanquam
+        luctatores pueros, a ventre rejicientes vestes, ita ut athleticum quid hic morbus
+        videatur.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Quis indicet nobis Lysistratam, ubi sit? nam viri adsumus
+        et nos hujuscemodi.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Et alter hic morbus alteri congruit. Numquid mane
+        tentigo vos capit?</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Immo perimus, dum hoc experimur. Quare, nisi pacem quis
+        inter nos ocius conciliet, fieri non poterit, quin Clisthenem futuamus.<endnote
+          orig="Project_Gutenberg" n="71"/></speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Si sapitis, vestes sumetis, ut ne quis eorum, qui
+          Hermas<endnote orig="Project_Gutenberg" n="72"/> truncant, vos videat.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Recte, ita me Jupiter amet, autumas.</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> Ita me Castores, recte omnino. Agedum amiciamur.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Salvete, ô Lacones: turpe est, quod nobis
+        accidit.</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> O Polycharida, male utique nobis fuisset, si vidissent
+        isti viri mentulas nostras<endnote orig="transcriber" n="26"/> erectas.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Agite, Lacones, aperte profitendum est: quare huc
+        advenistis?</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> De pace legati.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Recte dicitis; et nos ob eam rem. Quidni ergo vocamus
+        Lysistratam, quæ sola nos conciliare possit?</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> Ita edepol, et, si vultis, Lysistratum.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Sed nihil opus est, ut videtur, a vobis eam
+        evocarier: ipsa enim, re audita, egreditur.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Salve mulier omnium fortissima: nunc te decet esse
+        formidabilem, probam, simplicem, gravem, mitem, callidam. Nam primarii Græciæ viri, tuis
+        illecebris capti, tibi permiserunt, et communi consilio commiserunt querelas suas.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Sed non difficile negotium est, si quis subantes eos
+        offendat, et mutuo masculæ Veneris usu abstinentes. Sed mox scibo. Ubi est Pax? adduc primum
+        Laconas prehensos manu, sed non dura, nec superba, neque, ut viri nostri solebant,
+          invenuste;<endnote orig="Project_Gutenberg" n="73"/> sed, ut mulieres decet, familiariter
+        omnino. Si tibi quis manum non dederit, mentula prehensum duc. Age tu etiam Athenienses duc
+        istos, qua concedent parte prehensos. Vos Lacones, state huc prope me: vos autem istinc, et
+        verba mea percipite. Mulier quidem sum: mens tamen inest mihi: et primum quidem a natura
+        mihi inditum fuit, ut recte sentirem: tum, præceptis multis e patre meo et senioribus
+        auditis, erudita sum non male. Volo autem vos communi argumento increpare, idque merito:
+        qui, licet eadem aqua lustrali aras conspergatis, tanquam cognati, Olympiæ, Pylis, Delphis,
+        (Quot alia memorarem loca, si vellem esse prolixior?) quum non desint barbari hostes, tamen
+        infestis exercitibus Græcos et eorum urbes pessundatis. Communis quidem ista oratio hactenus
+        mihi finitur.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> At ego tentigine pereo.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Deinde vos Lacones, nam ad vos me convertam, nonne
+        scitis, ut olim huc veniens Periclides Laco,<endnote orig="Project_Gutenberg" n="74"/>
+        Atheniensibus supplex, ad aras sedit, pallidus, in purpureo amictu, auxiliares copias
+        petens? nam tunc vos urgebat Messena, et una Neptunus terram quatiens. At Cimon cum quatuor
+        millibus armatis profectus universam servavit Lacedæmonem. His ab Atheniensibus acceptis
+        beneficiis, vastatis terram, cujus talia sunt in vos merita.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Injurii sunt isti hercle, ô Lysistrata.</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> Injurii sumus: sed vix dici potest, quam pulcher sit
+        hujus culus.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> At putasne me vos Athenienses absoluturam culpa? nonne
+        meministis, ut vicissim Lacones, quando servilibus tunicis induti eratis, venientes armati,
+        multos occiderunt Thessalos, multosque Hippiæ amicos et socios, soli suppetias vobis
+        ferentes illo die, et restituta vobis libertate, pro servili tunica populum vestrum pallio
+        amicierunt denuo?</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> Nondum vidi mulierem præstantiorem.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> At ego cunnum nunquam pulchriorem.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Cur ergo, quum tam multa et præclara merita vestra
+        exstent, pugnatis, et non desistis a malitia? cur non reconciliamini? age, quid
+        obstat?</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> Nos quidem volumus, si quis nobis encyclum istud reddere
+        velit.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Quodnam, ô bone?</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> Pylum, ut dudum eam flagitamus et captamus.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Illud quidem vobis nunquam eveniet, per Neptunum
+        juro.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Concedite illis, ô boni.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Postea quamnam movebimus?</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Aliud reposcite pro isto castellum.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Perii! date igitur nobis hunc Echinuntem primo, et
+        Maliensem sinum pone adjacentem, et Megarica Crura.<endnote orig="Project_Gutenberg" n="75"
+        /></speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> Non edepol omnia, ô insane.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Sinite, ne contende de Cruribus.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Jam exuta veste nudus arare volo.</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> At pol ego stercus convehere quamprimum.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Ubi pax vobis reconciliata fuerit, istuc facietis. Sed si
+        de pace vobis constat sententia, deliberate, et socios adeuntes rem cum iis
+        communicate.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Nam quos, ô bona, socios? arrigimus. Annon idem nostris
+        sociis videbitur, omnibus futuendum esse?</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> Sic edepol meis.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Immo hercle Carystiis.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Recte dicitis. Nunc curate ut puri sitis, ut nos mulieres
+        in arce convivio vos excipiamus de illis quæ in cistis habemus. Jusjurandum et fidem illic
+        invicem date, deinde uxore sua accepta, vestrûm unusquisque abibit.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Sed eamus quam citissime.</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> Duc quo tu vis.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Ita hercle, quam celerrime.</speech>
+
+      <speech><spkr name="CHOR">CHOR. MUL.</spkr> Stragulas vestes et lænas, et xystidas, et aurea
+        vasa, quidquid est mihi, sine invidia volo omnibus præbere, ut ferant suis liberis, si
+        quando alicujus filia canistrum in sacris gestet. Omnibus vobis dico, ut sumatis nunc de
+        meis opibus e domo mea, et nihil tam bene obsignatum esse, quin ceram revellatis, et quæ
+        intus condita sunt auferatis. Sed qui omnia circumspexerit, nihil videbit, nisi quis vestrûm
+        acutius cernit, quam ego.<endnote orig="Project_Gutenberg" n="76"/> Si vero alicui cibus
+        deest, quo vernas et parvulam sobolem numerosam pascat, licet a me sumere contritas fruges:
+        at est panis unius chœnicis, aspectu valde magnus. Quisquis igitur vult pauperum, eat in
+        domum meam saccos habens et peras, accepturus fruges: Manes autem servus meus eis indet.
+        Verumtamen ad januam meam ne quis accedat, prædico: sed caveat canem.<endnote
+          orig="Project_Gutenberg" n="77"/></speech>
+
+      <speech><spkr name="CIRC">CIRC.</spkr> Aperi januam.</speech>
+
+      <speech><spkr name="FAM">FAM.</spkr> Nonne vis loco cedere? Vos, quid sedetis? Num vultis, ut
+        ego lampade hac vos comburam? molesta est hæc statio.</speech>
+
+      <speech><spkr name="CIRC">CIRC.</spkr> Non recedam.</speech>
+
+      <speech><spkr name="FAM">FAM.</spkr> Sed si omnino id faciendum est, ut vobis gratificemur,
+        durabimus.</speech>
+
+      <speech><spkr name="CIRC">CIRC.</spkr> Et nos tecum una durabimus.</speech>
+
+      <speech><spkr name="FAM">FAM.</spkr> Nonne abitis? Male erit vestris capillis et flebitis
+        largiter. Non abitis, ut Lacones ex ædibus quiete abeant rerum omnium saturi?</speech>
+
+      <speech><spkr name="ATH">ATH. QUID.</spkr> Nunquam equidem vidi tale convivium. Faceti utique
+        erant Lacones: nos autem in vino convivæ sapientissimi.</speech>
+
+      <speech><spkr name="CHOR">CHOR. SEN.</spkr> Recte autumas, quia sobrii insanimus. Quod si
+        Athenienses me audient, madidi semper obibimus legationes ubicunque.<endnote
+          orig="transcriber" n="27"/> Nunc enim si quando Lacedæmonem venimus sicci, statim
+        circumspicimus, ecquid turbare possimus. Itaque quid dicant, non audimus: quæ vero non
+        dicunt, hæc suspicamur perperam: et nuntiamus non eadem de iisdem rebus. At nunc omnia
+        placuerunt, ut si quis cantaret Telamonis,<endnote orig="Project_Gutenberg" n="78"/> quum
+        cantare debuisset scolion Clitagoræ, tamen laudaremus, et insuper pejeraremus.</speech>
+
+      <speech><spkr name="FAM">FAM.</spkr> Sed isti rursus huc conveniunt. Nonne facessitis,
+        verberones?</speech>
+
+      <speech><spkr name="CIRC">CIRC.</spkr> Ita hercle: jam enim intus egrediuntur
+        convivæ.</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> O Polycharida, cape tibias, ut ego tripudiem et canam
+        lepide in Athenienses et nos simul.</speech>
+
+      <speech><spkr name="POL">POL.</spkr> Quin tu cape tibias, per deos obsecro: nam nihil me magis
+        oblectat, quam si vos saltantes conspicer.</speech>
+
+      <speech><spkr name="LEG">LEG.</spkr> Excita, ô Mnemosyne, juvenes hosce, et meam Musam, quæ
+        nostra et Atheniensium præclara facta novit: quando hi quidem ad Artemisium,<endnote
+          orig="Project_Gutenberg" n="79"/> diis similes, impetum fecerunt in naves hostiles, et
+        Medos vicerunt. Nos vero Leonidas<endnote orig="Project_Gutenberg" n="80"/> ducebat, tanquam
+        apros, exacuentes dentem: plurima autem circa ora spuma efflorescebat, plurimaque simul
+        defluebat cruribus. Erant enim viri Persæ numero non pauciores, quam arena. Silvarum potens
+        Diana venatrix, huc ades, virgo diva, ad fœdus nostrum, ut concordiam nostram diu tuearis,
+        utque jam deinceps amicitia permaneat facilis, inito fœdere; et astutiam vulpinam missam
+        faciamus: ô huc ades, ô venatrix virgo.</speech>
+
+      <speech><spkr name="LYS">LYS.</spkr> Agite nunc rebus bene peractis ceteris, abducite istas, ô
+        Lacones; has autem, vos: vir apud mulierem, et mulier stet apud virum. Et deinde ob felicem
+        rerum successum, choreis in deorum honorem ductis, caveamus deinceps rursus
+        peccare.</speech>
+
+      <speech><spkr name="CHOR">CHOR. ATHEN.</spkr> Adduc chorum, adduc etiam Gratias: præterea
+        Dianam advoca; advoca etiam geminum Dianæ, chori ducem, Pæanem benignum: advoca Nysium, cui
+        cum Mænadibus oculi sunt flagrantes: Jovemque igni coruscum, et conjugem venerandam advoca
+        beatam: deinde vero deos, quibus testibus utemur non obliviosis circa magnanimam pacem, quam
+        fecit diva Cypris. Alalæ io Pæan, tollite vos sublimes, io! tanquam victoria potiti, io!
+        Euœ, euœ; Euæ, euæ. Lacon, tu jam profer cantilenam novam post novam.</speech>
+
+      <speech><spkr name="CHOR">CHOR. LAC.</spkr> Taygetum amabilem relinquens, rursus veni Musa
+        Lacæna, venerandum nobis celebrans Amyclarum deum, et Chalciœcam Minervam, Tyndaridasque
+        fortes, qui ad Eurotam ludunt.<endnote orig="Project_Gutenberg" n="81"/> Eia naviter
+        ingredere, levem pallii quatiens institam, ut Spartam celebremus, cui deorum chori sunt
+        curæ, et pedum strepitus: puellæ vero propter Eurotam, ut pulli equini, subsultant, crebro
+        pedum pulsu festinantes, comasque quassant, tanquam Bacchæ thyrsis ludentes. Præit autem
+        Ledæ filia casta, dux chori pulchra. Sed age manu fluxos capillos implica vittæ, et pedibus
+        salta, salta ut cerva: plausum simul fac choreis utilem, et divarum fortissimam Chalciœcam
+        celebra, bellatricem. </speech>
+    </scene>
+  </body>
+
+  <notes orig="transcriber">
+    <!--Transcriber's Footnotes:-->
+
+    <endnote orig="transcriber" n="1"> Leipzig: "existumant" </endnote>
+
+    <endnote orig="transcriber" n="2"> Leipzig: "optumum" </endnote>
+
+    <endnote orig="transcriber" n="3"> Leipzig: "De Athenis autem nil tale ominabor: aliud te
+      suspicari velim. </endnote>
+
+    <endnote orig="transcriber" n="4"> Missing in Leipzig-ed. </endnote>
+
+    <endnote orig="transcriber" n="5"> Missing in Leipzig-ed. </endnote>
+
+    <endnote orig="transcriber" n="6"> Typo in Oxford: "perpitam". Leipzig has "perditam". </endnote>
+
+    <endnote orig="transcriber" n="7"> Leipzig: "et iuremus in calicem nos non infusuras." </endnote>
+
+    <endnote orig="transcriber" n="8"> Leizpig: "Flocci eos facio." </endnote>
+
+    <endnote orig="transcriber" n="9"> Leipzig: "festinandum et ocius" </endnote>
+
+    <endnote orig="transcriber" n="10"> Leipzig: "mulierum examen foris succurrit." </endnote>
+
+    <endnote orig="transcriber" n="11"> Leipzig: "an ut humanum exuras tibi?" </endnote>
+
+    <endnote orig="transcriber" n="12"> Leipzig: "et ei glandem inseras." </endnote>
+
+    <endnote orig="transcriber" n="13"> Leipzig: "Per Dianam iuro, extremam mihi si manum admoverit,
+      quum sit publicus minister, flebit." </endnote>
+
+    <endnote orig="transcriber" n="14"> Leipzig: "si hanc digito attigeris" </endnote>
+
+    <endnote orig="transcriber" n="15"> Leipzig: "Tam vir" </endnote>
+
+    <endnote orig="transcriber" n="16"> Leipzig: "Maxume" </endnote>
+
+    <endnote orig="transcriber" n="17"> Leipzig: "lupides" </endnote>
+
+    <endnote orig="transcriber" n="18"> Leipzig: "maxume" </endnote>
+
+    <endnote orig="transcriber" n="19"> Leipzig: "Primam quidem deprehendi foramen repurgantem" </endnote>
+
+    <endnote orig="transcriber" n="20"> Leipzig: "Et edepol prægnas sum." </endnote>
+
+    <endnote orig="transcriber" n="21"> Leipzig: "tutubantium" </endnote>
+
+    <endnote orig="transcriber" n="22"> Typo in Oxford: "Heu! hen!". Leipzig has "Heu! heu!". </endnote>
+
+    <endnote orig="transcriber" n="23"> Leipzig: "intellego" </endnote>
+
+    <endnote orig="transcriber" n="24"> Leipzig: "intellegis" </endnote>
+
+    <endnote orig="transcriber" n="25"> Leipzig: "adveniunt tanquam suile vimineum circa femora
+      adligatum habentes." </endnote>
+
+    <endnote orig="transcriber" n="26"> Typo in Oxford: "mentulas nostas". Leipzig has "mentulas
+      nostras". </endnote>
+
+    <endnote orig="transcriber" n="27"> Leipzig: "ubicumque" </endnote>
+
+  </notes>
+
+  <notes orig="Project_Gutenberg">
+    <!--Footnotes (ex Project Gutenberg #8688):-->
+
+
+    <endnote orig="Project_Gutenberg" n="1"> At Athens more than anywhere the festivals of Bacchus
+      (Dionysus) were celebrated with the utmost pomp--and also with the utmost licence, not to say
+      licentiousness. Pan---the rustic god and king of the Satyrs; his feast was similarly an
+      occasion of much coarse self-indulgence. Aphrodité Colias--under this name the goddess was
+      invoked by courtesans as patroness of sensual, physical love. She had a temple on the
+      promontory of Colias, on the Attic coast--whence the surname. The Genetyllides were minor
+      deities, presiding over the act of generation, as the name indicates. Dogs were offered in
+      sacrifice to them--presumably because of the lubricity of that animal. At the festivals of
+      Dionysus, Pan and Aphrodité women used to perform lascivious dances to the accompaniment of
+      the beating of tambourines. Lysistrata implies that the women she had summoned to council
+      cared really for nothing but wanton pleasures. </endnote>
+    <endnote orig="Project_Gutenberg" n="2"> An obscene _double entendre_; Calonicé understands, or
+      pretends to understand, Lysistrata as meaning a long and thick "membrum virile"! </endnote>
+    <endnote orig="Project_Gutenberg" n="3"> The eels from Lake Copaïs in Boeotia were esteemed
+      highly by epicures. </endnote>
+    <endnote orig="Project_Gutenberg" n="4"> This is the reproach Demosthenes constantly levelled
+      against his Athenian fellow-countrymen--their failure to seize opportunity. </endnote>
+    <endnote orig="Project_Gutenberg" n="5"> An island of the Saronic Gulf, lying between Magara and
+      Attica. It was separated by a narrow strait--scene of the naval battle of Salamis, in which
+      the Athenians defeated Xerxes--only from the Attic coast, and was subject to Athens. </endnote>
+    <endnote orig="Project_Gutenberg" n="6"> A deme, or township, of Attica, lying five or six miles
+      north of Athens. The Acharnians were throughout the most extreme partisans of the warlike
+      party during the Peloponnesian struggle. See 'The Acharnians.' </endnote>
+    <endnote orig="Project_Gutenberg" n="7"> The precise reference is uncertain, and where the joke
+      exactly comes in. The Scholiast says Theagenes was a rich, miserly and superstitious citizen,
+      who never undertook any enterprise without first consulting an image of Hecaté, the
+      distributor of honour and wealth according to popular belief; and his wife would naturally
+      follow her husband's example. </endnote>
+    <endnote orig="Project_Gutenberg" n="8"> A deme of Attica, a small and insignificant
+      community--a 'Little Pedlington' in fact. </endnote>
+    <endnote orig="Project_Gutenberg" n="9"> In allusion to the gymnastic training which was _de
+      rigueur_ at Sparta for the women no less than the men, and in particular to the dance of the
+      Lacedaemonian girls, in which the performer was expected to kick the fundament with the
+      heels--always a standing joke among the Athenians against their rivals and enemies the
+      Spartans. </endnote>
+    <endnote orig="Project_Gutenberg" n="10"> The allusion, of course, is to the 'garden of love,'
+      the female parts, which it was the custom with the Greek women, as it is with the ladies of
+      the harem in Turkey to this day, to depilate scrupulously, with the idea of making themselves
+      more attractive to men. </endnote>
+    <endnote orig="Project_Gutenberg" n="11"> Corinth was notorious in the Ancient world for its
+      prostitutes and general dissoluteness. </endnote>
+    <endnote orig="Project_Gutenberg" n="12"> An Athenian general strongly suspected of treachery;
+      Aristophanes pretends his own soldiers have to see that he does not desert to the enemy. </endnote>
+    <endnote orig="Project_Gutenberg" n="13"> A town and fortress on the west coast of Messenia,
+      south-east part of Peloponnese, at the northern extremity of the bay of Sphacteria--the scene
+      by the by of the modern naval battle of Navarino-- in Lacedaemonian territory; it had been
+      seized by the Athenian fleet, and was still in their possession at the date, 412 B.C., of the
+      representation of the 'Lysistrata,' though two years later, in the twenty-second year of the
+      War, it was recovered by Sparta. </endnote>
+    <endnote orig="Project_Gutenberg" n="14"> The Athenian women, rightly or wrongly, had the
+      reputation of being over fond of wine. Aristophanes, here and elsewhere, makes many jests on
+      this weakness of theirs. </endnote>
+    <endnote orig="Project_Gutenberg" n="15"> The lofty range of hills overlooking Sparta from the
+      west. </endnote>
+    <endnote orig="Project_Gutenberg" n="16"> In the original "we are nothing but Poseidon and a
+      boat"; the allusion is to a play of Sophocles, now lost, but familiar to Aristophanes'
+      audience, entitled 'Tyro,' in which the heroine, Tyro, appears with Poseidon, the sea-god, at
+      the beginning of the tragedy, and at the close with the two boys she had had by him, whom she
+      exposes in an open boat. </endnote>
+    <endnote orig="Project_Gutenberg" n="17"> "By the two goddesses,"--a woman's oath, which recurs
+      constantly in this play; the two goddesses are always Demeter and Proserpine. </endnote>
+    <endnote orig="Project_Gutenberg" n="18"> One of the Cyclades, between Naxos and Cos,
+      celebrated, like the latter, for its manufacture of fine, almost transparent silks, worn in
+      Greece, and later at Rome, by women of loose character. </endnote>
+    <endnote orig="Project_Gutenberg" n="19"> The proverb, quoted by Pherecrates, is properly spoken
+      of those who go out of their way to do a thing already done--"to kill a dead horse," but here
+      apparently is twisted by Aristophanes into an allusion to the leathern 'godemiche' mentioned a
+      little above; if the worst comes to the worst, we must use artificial means. Pherecrates was a
+      comic playwright, a contemporary of Aristophanes. </endnote>
+    <endnote orig="Project_Gutenberg" n="20"> Literally "our Scythian woman." At Athens, policemen
+      and ushers in the courts were generally Scythians; so the revolting women must have _their_
+      Scythian "Usheress" too. </endnote>
+    <endnote orig="Project_Gutenberg" n="21"> In allusion to the oath which the seven allied
+      champions before Thebes take upon a buckler, in Aeschylus' tragedy of 'The Seven against
+      Thebes,' v. 42. </endnote>
+    <endnote orig="Project_Gutenberg" n="22"> A volcanic island in the northern part of the Aegaean,
+      celebrated for its vineyards. </endnote>
+    <endnote orig="Project_Gutenberg" n="23"> The old men are carrying faggots and fire to burn down
+      the gates of the Acropolis, and supply comic material by their panting and wheezing as they
+      climb the steep approaches to the fortress and puff and blow at their fires. Aristophanes
+      gives them names, purely fancy ones-- Draces, Strymodorus, Philurgus, Laches. </endnote>
+    <endnote orig="Project_Gutenberg" n="24"> Cleomenes, King of Sparta, had in the preceding
+      century commanded a Lacedaemonian expedition against Athens. At the invitation of the
+      Alcmaeonidae, enemies of the sons of Peisistratus, he seized the Acropolis, but after an
+      obstinately contested siege was forced to capitulate and retire. </endnote>
+    <endnote orig="Project_Gutenberg" n="25"> Lemnos was proverbial with the Greeks for chronic
+      misfortune and a succession of horrors and disasters. Can any good thing come out of _Lemnos_? </endnote>
+    <endnote orig="Project_Gutenberg" n="26"> That is, a friend of the Athenian people; Samos had
+      just before the date of the play re-established the democracy and renewed the old alliance
+      with Athens. </endnote>
+    <endnote orig="Project_Gutenberg" n="27"> A second Chorus enters--of women who are hurrying up
+      with water to extinguish the fire just started by the Chorus of old men. Nicodicé, Calycé,
+      Crityllé, Rhodippé, are fancy names the poet gives to different members of the band. Another,
+      Stratyllis, has been stopped by the old men on her way to rejoin her companions. </endnote>
+    <endnote orig="Project_Gutenberg" n="28"> Bupalus was a celebrated contemporary sculptor, a
+      native of Clazomenae. The satiric poet Hipponax, who was extremely ugly, having been portrayed
+      by Bupalus as even more unsightly-looking than the reality, composed against the artist so
+      scurrilous an invective that the latter hung himself in despair. Apparently Aristophanes
+      alludes here to a verse in which Hipponax threatened to beat Bupalus. </endnote>
+    <endnote orig="Project_Gutenberg" n="29"> The Heliasts at Athens were the body of citizens
+      chosen by lot to act as jurymen (or, more strictly speaking, as judges and jurymen, the
+      Dicast, or so-called Judge, being merely President of the Court, the majority of the Heliasts
+      pronouncing sentence) in the Heliaia, or High Court, where all offences liable to public
+      prosecution were tried. They were 6000 in number, divided into ten panels of 500 each, a
+      thousand being held in reserve to supply occasional vacancies. Each Heliast was paid three
+      obols for each day's attendance in court. </endnote>
+    <endnote orig="Project_Gutenberg" n="30"> Women only celebrated the festivals of Adonis. These
+      rites were not performed in public, but on the terraces and flat roofs of the houses. </endnote>
+    <endnote orig="Project_Gutenberg" n="31"> The Assembly, or Ecclesia, was the General Parliament
+      of the Athenian people, in which every adult citizen had a vote. It met on the Pnyx hill,
+      where the assembled Ecclesiasts were addressed from the Bema, or speaking-block. </endnote>
+    <endnote orig="Project_Gutenberg" n="32"> An orator and statesman who had first proposed the
+      disastrous Sicilian Expedition, of 415-413 B.C. This was on the first day of the festival of
+      Adonis--ever afterwards regarded by the Athenians as a day of ill omen. </endnote>
+    <endnote orig="Project_Gutenberg" n="33"> An island in the Ionian Sea, on the west of Greece,
+      near Cephalenia, and an ally of Athens during the Peloponnesian War. </endnote>
+    <endnote orig="Project_Gutenberg" n="34"> Cholozyges, a nickname for Demostratus. </endnote>
+    <endnote orig="Project_Gutenberg" n="35"> The State treasure was kept in the Acropolis, which
+      the women had seized. </endnote>
+    <endnote orig="Project_Gutenberg" n="36"> The second (mythical) king of Athens, successor of
+      Cecrops. </endnote>
+    <endnote orig="Project_Gutenberg" n="37"> The leader of the Revolution which resulted in the
+      temporary overthrow of the Democracy at Athens (413, 412 B.C.), and the establishment of the
+      Oligarchy of the Four Hundred. </endnote>
+    <endnote orig="Project_Gutenberg" n="38"> Priests of Cybelé, who indulged in wild, frenzied
+      dances, to the accompaniment of the clashing of cymbals, in their celebrations in honour of
+      the goddess. </endnote>
+    <endnote orig="Project_Gutenberg" n="39"> Captain of a cavalry division; they were chosen from
+      amongst the _Hippeis_, or 'Knights' at Athens. </endnote>
+    <endnote orig="Project_Gutenberg" n="40"> In allusion to a play of Euripides, now lost, with
+      this title. Tereus was son of Ares and king of the Thracians in Daulis. </endnote>
+    <endnote orig="Project_Gutenberg" n="41"> An allusion to the disastrous Sicilian Expedition
+      (415-413 B.C.), in which many thousands of Athenian citizens perished. </endnote>
+    <endnote orig="Project_Gutenberg" n="42"> The dead were laid out at Athens before the house
+      door. </endnote>
+    <endnote orig="Project_Gutenberg" n="43"> An offering made to the Manes of the deceased on the
+      third day after the funeral. </endnote>
+    <endnote orig="Project_Gutenberg" n="44"> Hippias and Hipparchus, the two sons of Pisistratus,
+      known as the Pisistratidae, became Tyrants of Athens upon their father's death in 527 B.C. In
+      514 the latter was assassinated by the conspirators, Harmodius and Aristogiton, who took the
+      opportunity of the Panathenaic festival and concealed their daggers in myrtle wreaths. They
+      were put to death, but four years later the surviving Tyrant Hippias was expelled, and the
+      young and noble martyrs to liberty were ever after held in the highest honour by their
+      fellow-citizens. Their statues stood in the Agora or Public Market-Square. </endnote>
+    <endnote orig="Project_Gutenberg" n="45"> That is, the three obols paid for attendance as a
+      Heliast at the High Court. </endnote>
+    <endnote orig="Project_Gutenberg" n="46">] See above, under note 3 [Transcriber: "PG44"]. </endnote>
+    <endnote orig="Project_Gutenberg" n="47"> The origin of the name was this: in ancient days a
+      tame bear consecrated to Artemis, the huntress goddess, it seems, devoured a young girl, whose
+      brothers killed the offender. Artemis was angered and sent a terrible pestilence upon the
+      city, which only ceased when, by direction of the oracle, a company of maidens was dedicated
+      to the deity, to act the part of she-bears in the festivities held annually in her honour at
+      the _Brauronia_, her festival so named from the deme of Brauron in Attica. </endnote>
+    <endnote orig="Project_Gutenberg" n="48"> The Basket-Bearers, Canephoroi, at Athens were the
+      maidens who, clad in flowing robes, carried in baskets on their heads the sacred implements
+      and paraphernalia in procession at the celebrations in honour of Demeter, Dionysus and Athené. </endnote>
+    <endnote orig="Project_Gutenberg" n="49"> A treasure formed by voluntary contributions at the
+      time of the Persian Wars; by Aristophanes' day it had all been dissipated, through the
+      influence of successive demagogues, in distributions and gifts to the public under various
+      pretexts. </endnote>
+    <endnote orig="Project_Gutenberg" n="50"> A town and fortress of Southern Attica, in the
+      neighbourhood of Marathon, occupied by the Alcmaeonidae--the noble family or clan at Athens
+      banished from the city in 595 B.C., restored 560, but again expelled by Pisistratus--in the
+      course of their contest with that Tyrant. Returning to Athens on the death of Hippias (510
+      B.C.), they united with the democracy, and the then head of the family, Cleisthenes, gave a
+      new constitution to the city. </endnote>
+    <endnote orig="Project_Gutenberg" n="51"> Queen of Halicarnassus, in Caria; an ally of the
+      Persian King Xerxes in his invasion of Greece; she fought gallantly at the battle of Salamis. </endnote>
+    <endnote orig="Project_Gutenberg" n="52"> A _double entendre_--with allusion to the posture in
+      sexual intercourse known among the Greeks as ἵππος, in Latin 'equus,' the horse, where the
+      woman mounts the man in reversal of the ordinary position. </endnote>
+    <endnote orig="Project_Gutenberg" n="53"> Micon, a famous Athenian painter, decorated the walls
+      of the Poecilé Stoa, or Painted Porch, at Athens with a series of frescoes representing the
+      battles of the Amazons with Theseus and the Athenians. </endnote>
+    <endnote orig="Project_Gutenberg" n="54"> To avenge itself on the eagle, the beetle threw the
+      former's eggs out of the nest and broke them. See the Fables of Aesop. </endnote>
+    <endnote orig="Project_Gutenberg" n="55"> Keeper of a house of ill fame apparently. </endnote>
+    <endnote orig="Project_Gutenberg" n="56"> "As chaste as Melanion" was a Greek proverb. Who
+      Melanion was is unknown. </endnote>
+    <endnote orig="Project_Gutenberg" n="57"> Myronides and Phormio were famous Athenian generals.
+      The former was celebrated for his conquest of all Boeotia, except Thebes, in 458 B.C.; the
+      latter, with a fleet of twenty triremes, equipped at his own cost, defeated a Lacedaemonian
+      fleet of forty-seven sail, in 429. </endnote>
+    <endnote orig="Project_Gutenberg" n="58"> Timon, the misanthrope; he was an Athenian and a
+      contemporary of Aristophanes. Disgusted by the ingratitude of his fellow-citizens and sickened
+      with repeated disappointments, he retired altogether from society, admitting no one, it is
+      said, to his intimacy except the brilliant young statesman Alcibiades. </endnote>
+    <endnote orig="Project_Gutenberg" n="59"> A spring so named within the precincts of the
+      Acropolis. </endnote>
+    <endnote orig="Project_Gutenberg" n="60"> The comic poets delighted in introducing Heracles
+      (Hercules) on the stage as an insatiable glutton, whom the other characters were for ever
+      tantalizing by promising toothsome dishes and then making him wait indefinitely for their
+      arrival. </endnote>
+    <endnote orig="Project_Gutenberg" n="61"> The Rhodian perfumes and unguents were less esteemed
+      than the Syrian. </endnote>
+    <endnote orig="Project_Gutenberg" n="62"> 'Dog-fox,' nickname of a certain notorious
+      Philostratus, keeper of an Athenian brothel of note in Aristophanes' day. </endnote>
+    <endnote orig="Project_Gutenberg" n="63"> The god of gardens--and of lubricity; represented by a
+      grotesque figure with an enormous penis. </endnote>
+    <endnote orig="Project_Gutenberg" n="64"> A staff in use among the Lacedaemonians for writing
+      cipher despatches. A strip of leather or paper was wound round the 'skytalé,' on which the
+      required message was written lengthwise, so that when unrolled it became unintelligible; the
+      recipient abroad had a staff of the same thickness and pattern, and so was enabled by
+      rewinding the document to decipher the words. </endnote>
+    <endnote orig="Project_Gutenberg" n="65"> A city of Achaia, the acquisition of which had long
+      been an object of Lacedaemonian ambition. To make the joke intelligible here, we must suppose
+      Pellené was also the name of some notorious courtesan of the day. </endnote>
+    <endnote orig="Project_Gutenberg" n="66"> A deme of Attica, abounding in woods and marshes,
+      where the gnats were particularly troublesome. There is very likely also an allusion to the
+      spiteful, teasing character of its inhabitants. </endnote>
+    <endnote orig="Project_Gutenberg" n="67">] A mina was a little over £4; 60 minas made a talent. </endnote>
+    <endnote orig="Project_Gutenberg" n="68"> Carystus was a city of Euboea notorious for the
+      dissoluteness of its inhabitants; hence the inclusion of these Carystian youths in the women's
+      invitation. </endnote>
+    <endnote orig="Project_Gutenberg" n="69"> A παρὰ προσδοκίαν; i.e. exactly the opposite of the
+      word expected is used to conclude the sentence--to move the sudden hilarity of the audience as
+      a finale to the scene. </endnote>
+    <endnote orig="Project_Gutenberg" n="70"> A wattled cage or pen for pigs. </endnote>
+    <endnote orig="Project_Gutenberg" n="71"> An effeminate, a pathic; failing women, they will have
+      to resort to pederasty. </endnote>
+    <endnote orig="Project_Gutenberg" n="72"> These _Hermae_ were half-length figures of the god
+      Hermes, which stood at the corners of streets and in public places at Athens. One night, just
+      before the sailing of the Sicilian Expedition, they were all mutilated--to the consternation
+      of the inhabitants. Alcibiades and his wild companions were suspected of the outrage. </endnote>
+    <endnote orig="Project_Gutenberg" n="73"> They had repeatedly dismissed with scant courtesy
+      successive Lacedaemonian embassies coming to propose terms of peace after the notable Athenian
+      successes at Pylos, when the Island of Sphacteria was captured and 600 Spartan citizens
+      brought prisoners to Athens. This was in 425 B.C., the seventh year of the War. </endnote>
+    <endnote orig="Project_Gutenberg" n="74"> Chief of the Lacedaemonian embassy which came to
+      Athens, after the earthquake of 464 B.C., which almost annihilated the town of Sparta, to
+      invoke the help of the Athenians against the revolted Messenians and helots. </endnote>
+    <endnote orig="Project_Gutenberg" n="75"> Echinus was a town on the Thessalian coast, at the
+      entrance to the Maliac Gulf, near Thermopylae and opposite the northern end of the Athenian
+      island of Euboea. By the "legs of Megara" are meant the two "long walls" or lines of
+      fortification connecting the city of Megara with its seaport Nisaea--in the same way as
+      Piraeus was joined to Athens. </endnote>
+    <endnote orig="Project_Gutenberg" n="76"> Example of παρὰ προσδοκίαν again; see above. </endnote>
+    <endnote orig="Project_Gutenberg" n="77"> Example of παρὰ προσδοκίαν again; see above. </endnote>
+    <endnote orig="Project_Gutenberg" n="78"> Clitagoras was a composer of drinking songs, Telamon
+      of war songs. </endnote>
+    <endnote orig="Project_Gutenberg" n="79"> Here, off the north coast of Euboea, the Greeks
+      defeated the Persians in a naval battle, 480 B.C. </endnote>
+    <endnote orig="Project_Gutenberg" n="80"> The hero of Thermopylae, where the 300 Athenians
+      arrested the advance of the invading hosts of Xerxes in the same year. </endnote>
+    <endnote orig="Project_Gutenberg" n="81"> Amyclae, an ancient town on the Eurotas within two or
+      three miles of Sparta, the traditional birthplace of Castor and Pollux; here stood a famous
+      and magnificent Temple of Apollo. "Of the Brazen House," a surname of Athené, from the Temple
+      dedicated to her worship at Chalcis in Euboea, the walls of which were covered with plates of
+      brass. Sons of Tyndarus, that is, Castor and Pollux, "the great twin brethren," held in
+      peculiar reverence at Sparta. </endnote>
+
+
+  </notes>
+
+
+
+</play>

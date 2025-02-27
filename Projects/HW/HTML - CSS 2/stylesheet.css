@@ -13,6 +13,11 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+#pit {
+    background-image: url("images/pitBack.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 a {
     color: black;
     font-family: "Courier New", monospace;
@@ -68,6 +73,14 @@ div {
     text-align: right;
     text-decoration: none;
 }
+#fall2 {
+    font-size: 13px;
+    color: white;
+    font-family: "Courier New", monospace;
+    font-weight: normal;
+    text-align: right;
+    text-decoration: none;
+}
 #rust {
     font-size: 80px;
     color: black;
@@ -76,9 +89,25 @@ div {
     text-align: right;
     text-decoration: none
 }
-#rustDiv {
+#rustDiv2 {
     font-size: 80px;
     color: black;
+    font-family: "Courier New", monospace;
+    font-weight: normal;
+    text-align: right;
+    text-decoration: none
+}
+#rust2 {
+    font-size: 80px;
+    color: white;
+    font-family: "Courier New", monospace;
+    font-weight: normal;
+    text-align: right;
+    text-decoration: none
+}
+#rustDiv {
+    font-size: 80px;
+    color: white;
     font-family: "Courier New", monospace;
     font-weight: normal;
     text-align: right;
@@ -113,4 +142,19 @@ div {
     position: absolute;
     bottom: 410px;
     left: 800px;
+}
+#pit1{
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+}
+#pit2{
+    position: absolute;
+    bottom: 100px;
+    left: 1350px;
+}
+#pit3{
+    position: absolute;
+    bottom: 490px;
+    left: 565px;
 }

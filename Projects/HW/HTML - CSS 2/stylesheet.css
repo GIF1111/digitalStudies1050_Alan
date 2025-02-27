@@ -1,0 +1,116 @@
+#main {
+    background-image: url("images/pattern1.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cleve {
+    background-image: url("images/cleBack.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#phoen {
+    background-image: url("images/pheBack.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a {
+    color: black;
+    font-family: "Courier New", monospace;
+    font-weight: normal;
+    text-align: justify;
+    text-decoration: none
+}
+div {
+    font-size: 10px;
+    color: black;
+    font-family: "Courier New", monospace;
+    font-weight: normal;
+    text-align: justify;
+    text-decoration: none
+}
+#cleAlign {
+    font-size: 30px;
+    color: black;
+    font-family: "Courier New", monospace;
+    font-weight: normal;
+    text-align: justify;
+    text-decoration: none;
+    text-shadow: 0 0 10px white;
+}
+#pitAlign {
+    font-size: 30px;
+    color: black;
+    font-family: "Courier New", monospace;
+    font-weight: normal;
+    text-align: justify;
+    text-decoration: none;
+    position: absolute;
+    left: 400px;
+    text-shadow: 0 0 10px white;
+}
+#pheAlign {
+    font-size: 30px;
+    color: black;
+    font-family: "Courier New", monospace;
+    font-weight: normal;
+    text-align: justify;
+    text-decoration: none;
+    position: absolute;
+    left: 1000px;
+    bottom: 800px;
+    text-shadow: 0 0 10px white;
+}
+#fall {
+    font-size: 13px;
+    color: black;
+    font-family: "Courier New", monospace;
+    font-weight: normal;
+    text-align: right;
+    text-decoration: none;
+}
+#rust {
+    font-size: 80px;
+    color: black;
+    font-family: "Courier New", monospace;
+    font-weight: normal;
+    text-align: right;
+    text-decoration: none
+}
+#rustDiv {
+    font-size: 80px;
+    color: black;
+    font-family: "Courier New", monospace;
+    font-weight: normal;
+    text-align: right;
+    text-decoration: none
+}
+#cle1{
+    position: absolute;
+    bottom: 470px;
+    left: 10px;
+}
+#cle2{
+    position: absolute;
+    bottom: 50px;
+    left: 555px;
+}
+#cle3{
+    position: absolute;
+    bottom: 410px;
+    left: 1050px;
+}
+#phe1{
+    position: absolute;
+    bottom: 580px;
+    left: 15px;
+}
+#phe2{
+    position: absolute;
+    bottom: 100px;
+    left: 1450px;
+}
+#phe3{
+    position: absolute;
+    bottom: 410px;
+    left: 800px;
+}

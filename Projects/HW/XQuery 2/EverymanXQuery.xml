@@ -1,0 +1,1877 @@
+﻿<play>
+    <title>EVERYMAN</title>
+
+    <charList>
+        <heading>CHARACTERS</heading>
+
+        <name char="Everyman">Everyman</name>
+        <name char="God">God: Adonai</name>
+        <!-- WHC: Jesus is distingushed by additional attr/value person="Son"; want to go through all char="God" tags and see what ones should get person="Father" -->
+        <name char="Death">Death</name>
+        <name char="Messenger">Messenger</name>
+        <name char="Fellowship">Fellowship</name>
+        <name char="Cousin">Cousin</name>
+        <name char="Kindred">Kindred</name>
+        <name char="Goods">Goods</name>
+        <name char="Good-Deeds">Good-Deeds</name>
+        <name char="Strength">Strength</name>
+        <name char="Discretion">Discretion</name>
+        <name char="Five-Wits">Five-Wits</name>
+        <name char="Beauty">Beauty</name>
+        <name char="Knowledge">Knowledge</name>
+        <name char="Confession">Confession</name>
+        <name char="Angel">Angel</name>
+        <name char="Doctor">Doctor</name>
+
+    </charList>
+
+    <introduction>HERE BEGINNETH A TREATISE HOW THE HIGH FATHER OF HEAVEN SENDETH DEATH TO SUMMON
+        EVERY CREATURE TO COME AND GIVE ACCOUNT OF THEIR LIVES IN THIS WORLD AND IS IN MANNER OF A
+        MORAL PLAY.</introduction>
+
+
+    <script>
+        <speech>
+            <line><speaker char="Messenger">Messenger</speaker> I pray you all give your
+                audience,</line>
+            <line>And hear this matter with reverence,</line>
+            <line>By figure a moral play--</line>
+            <line>The Summoning of <referent char="Everyman">Everyman</referent> called it
+                is,</line>
+            <line>That of our lives and ending shows</line>
+            <line>How transitory we be all day.</line>
+            <line>This matter is wondrous precious,</line>
+            <line>But the intent of it is more gracious,</line>
+            <line>And sweet to bear away.</line>
+            <line>The story saith,--Man, in the beginning,</line>
+            <line>Look well, and take good heed to the ending,</line>
+            <line>Be you never so gay!</line>
+            <line>Ye think sin in the beginning full sweet,</line>
+            <line>Which in the end causeth thy soul to weep,</line>
+            <line>When the body lieth in clay.</line>
+            <line>Here shall you see how <referent char="Fellowship">Fellowship</referent> and
+                    <referent char="Jollity">Jollity</referent>,</line>
+            <line>Both <referent char="Strength">Strength</referent>, <referent char="Pleasure"
+                    >Pleasure</referent>, and <referent char="Beauty">Beauty</referent>,</line>
+            <line>Will fade from thee as flower in May.</line>
+            <line>For ye shall hear, how <referent char="God">our heaven king</referent></line>
+            <line>Calleth <referent char="Everyman">Everyman</referent> to a general
+                reckoning:</line>
+            <line>Give audience, and hear what he doth say.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="God">God</speaker> I perceive here in my majesty,</line>
+            <line>How that all creatures be to me unkind,</line>
+            <line>Living without dread in worldly prosperity:</line>
+            <line>Of ghostly sight the people be so blind,</line>
+            <line>Drowned in sin, they know me not for their <referent char="God"
+                >God</referent>;</line>
+            <line>In worldly riches is all their mind,</line>
+            <line>They fear not my rightwiseness, the sharp rod;</line>
+            <line>My law that I shewed, when I for them died,</line>
+            <line>They forget clean, and shedding of my blood red;</line>
+            <line>I hanged between two, it cannot be denied;</line>
+            <line>To get them life I suffered to be dead;</line>
+            <line>I healed their feet, with thorns hurt was my head:</line>
+            <line>I could do no more than I did truly,</line>
+            <line>And now I see the people do clean forsake me.</line>
+            <line>They use the seven deadly sins damnable;</line>
+            <line>As pride, covetise, wrath, and lechery,</line>
+            <line>Now in the world be made commendable;</line>
+            <line>And thus they leave of angels the heavenly company;</line>
+            <line><referent char="Everyman">Everyman</referent> liveth so after his own
+                pleasure,</line>
+            <line>And yet of their life they be nothing sure:</line>
+            <line>I see the more that I them forbear</line>
+            <line>The worse they be from year to year;</line>
+            <line>All that liveth appaireth<note n="7"/> fast,</line>
+            <line>Therefore I will in all the haste</line>
+            <line>Have a reckoning of <referent char="Everyman">Everyman</referent>'s person</line>
+            <line>For and I leave the people thus alone</line>
+            <line>In their life and wicked tempests,</line>
+            <line>Verily they will become much worse than beasts;</line>
+            <line>For now one would by envy another up eat;</line>
+            <line>Charity they all do clean forget.</line>
+            <line>I hoped well that <referent char="Everyman">Everyman</referent></line>
+            <line>In my glory should make his mansion,</line>
+            <line>And thereto I had them all elect;</line>
+            <line>But now I see, like traitors deject,</line>
+            <line>They thank me not for the pleasure that I to them meant,</line>
+            <line>Nor yet for their being that I them have lent;</line>
+            <line>I proffered the people great multitude of mercy,</line>
+            <line>And few there be that asketh it heartily;</line>
+            <line>They be so cumbered with worldly riches,</line>
+            <line>That needs on them I must do justice,</line>
+            <line>On <referent char="Everyman">Everyman</referent> living without fear.</line>
+            <line>Where art thou, <referent char="Death">Death</referent>, thou mighty
+                messenger?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Death">Death</speaker>
+                <referent char="God">Almighty God</referent>, I am here at your will,</line>
+            <line>Your commandment to fulfil.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="God">God</speaker> Go thou to <referent char="Everyman"
+                    >Everyman</referent>,</line>
+            <line>And show him in my name</line>
+            <line>A pilgrimage he must on him take,</line>
+            <line>Which he in no wise may escape;</line>
+            <line>And that he bring with him a sure reckoning</line>
+            <line>Without delay or any tarrying.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Death">Death</speaker>
+                <referent char="God">Lord</referent>, I will in the world go run over all,</line>
+            <line>And cruelly outsearch both great and small;</line>
+            <line>Every man will I beset that liveth beastly</line>
+            <line>Out of <referent char="God">God</referent>'s laws, and dreadeth not folly:</line>
+            <line>He that loveth riches I will strike with my dart,</line>
+            <line>His sight to blind, and from heaven to depart,</line>
+            <line>Except that alms be his good friend,</line>
+            <line>In hell for to dwell, world without end.</line>
+            <line>Lo, yonder I see <referent char="Everyman">Everyman</referent> walking;</line>
+            <line>Full little he thinketh on my coming;</line>
+            <line>His mind is on fleshly lusts and his treasure,</line>
+            <line>And great pain it shall cause him to endure</line>
+            <line>Before <referent char="God">the Lord Heaven King</referent>.</line>
+            <line><referent char="Everyman">Everyman</referent>, stand still; whither art thou
+                going</line>
+            <line>Thus gaily? Hast thou <referent char="God">thy Maker</referent> forget?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Why askst thou?</line>
+            <line>Wouldest thou wete?<note n="8"/></line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Death">Death</speaker> Yea, sir, I will show you;</line>
+            <line>In great haste I am sent to thee</line>
+            <line>From <referent char="God">God</referent> out of his majesty.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> What, sent to me?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Death">Death</speaker> Yea, certainly.</line>
+            <line>Though thou have forget him here,</line>
+            <line>He thinketh on thee in the heavenly sphere,</line>
+            <line>As, or we depart, thou shalt know.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> What desireth <referent char="God"
+                    >God</referent> of me?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Death">Death</speaker> That shall I show thee;</line>
+            <line>A reckoning he will needs have</line>
+            <line>Without any longer respite.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> To give a reckoning longer leisure I
+                crave;</line>
+            <line>This blind matter troubleth my wit.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Death">Death</speaker> On thee thou must take a long
+                journey:</line>
+            <line>Therefore thy book of count with thee thou bring;</line>
+            <line>For turn again thou can not by no way,</line>
+            <line>And look thou be sure of thy reckoning:</line>
+            <line>For before <referent char="God">God</referent> thou shalt answer, and show</line>
+            <line>Thy many bad deeds and good but a few;</line>
+            <line>How thou hast spent thy life, and in what wise,</line>
+            <line>Before <referent char="God">the chief lord of paradise</referent>.</line>
+            <line>Have ado that we were in that way,</line>
+            <line>For, wete thou well, thou shalt make none attournay.<note n="9"/></line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Full unready I am such reckoning to
+                give.</line>
+            <line>I know thee not: what messenger art thou?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Death">Death</speaker> I am <referent char="Death"
+                >Death</referent>, that no man dreadeth.</line>
+            <line>For every man I rest and no man spareth;</line>
+            <line>For it is <referent char="God">God</referent>'s commandment</line>
+            <line>That all to me should be obedient.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> O <referent char="Death"
+                    >Death</referent>, thou comest when I had thee least in mind;</line>
+            <line>In thy power it lieth me to save,</line>
+            <line>Yet of my good will I give thee, if ye will be kind,</line>
+            <line>Yea, a thousand pound shalt thou have,</line>
+            <line>And defer this matter till another day.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Death">Death</speaker>
+                <referent char="Everyman">Everyman</referent>, it may not be by no way;</line>
+            <line>I set not by gold, silver, nor riches,</line>
+            <line>Ne by pope, emperor, king, duke, ne princes.</line>
+            <line>For and I would receive gifts great,</line>
+            <line>All the world I might get;</line>
+            <line>But my custom is clean contrary.</line>
+            <line>I give thee no respite: come hence, and not tarry.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Alas, shall I have no longer
+                respite?</line>
+            <line>I may say <referent char="Death">Death</referent> giveth no warning:</line>
+            <line>To think on thee, it maketh my heart sick,</line>
+            <line>For all unready is my book of reckoning.</line>
+            <line>But twelve year and I might have abiding,</line>
+            <line>My counting book I would make so clear,</line>
+            <line>That my reckoning I should not need to fear.</line>
+            <line>Wherefore, <referent char="Death">Death</referent>, I pray thee, for <referent
+                    char="God">God</referent>'s mercy,</line>
+            <line>Spare me till I be provided of remedy.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Death">Death</speaker> Thee availeth not to cry, weep, and
+                pray:</line>
+            <line>But haste thee lightly that you were gone the journey,</line>
+            <line>And prove thy friends if thou can.</line>
+            <line>For, wete thou well, the tide abideth no man,</line>
+            <line>And in the world each living creature</line>
+            <line>For <referent char="Adam">Adam</referent>'s sin must die of nature.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker>
+                <referent char="Death">Death</referent>, if I should this pilgrimage take,</line>
+            <line>And my reckoning surely make,</line>
+            <line>Show me, for <referent char="Saint-Charity">saint charity</referent>,</line>
+            <line>Should I not come again shortly?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Death">Death</speaker> No, <referent char="Everyman"
+                    >Everyman</referent>; and thou be once there,</line>
+            <line>Thou mayst never more come here,</line>
+            <line>Trust me verily.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> O <referent char="God">gracious
+                    God</referent>, in the high seat celestial,</line>
+            <line>Have mercy on me in this most need;</line>
+            <line>Shall I have no company from this vale terrestrial</line>
+            <line>Of mine acquaintance that way me to lead?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Death">Death</speaker> Yea, if any be so hardy,</line>
+            <line>That would go with thee and bear thee company.</line>
+            <line>Hie thee that you were gone to <referent char="God">God</referent>'s
+                magnificence,</line>
+            <line>Thy reckoning to give before his presence.</line>
+            <line>What, weenest thou thy life is given thee,</line>
+            <line>And thy worldly goods also?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> I had wend so, verily.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Death">Death</speaker> Nay, nay; it was but lent thee;</line>
+            <line>For as soon as thou art go,</line>
+            <line>Another awhile shall have it, and then go therefro</line>
+            <line>Even as thou hast done.</line>
+            <line><referent char="Everyman">Everyman</referent>, thou art mad; thou hast thy wits
+                five,</line>
+            <line>And here on earth will not amend thy life,</line>
+            <line>For suddenly I do come.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> O wretched caitiff, whither shall I
+                flee,</line>
+            <line>That I might scape this endless sorrow!</line>
+            <line>Now, gentle <referent char="Death">Death</referent>, spare me till
+                to-morrow,</line>
+            <line>That I may amend me</line>
+            <line>With good advisement.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Death">Death</speaker> Nay, thereto I will not consent,</line>
+            <line>Nor no man will I respite,</line>
+            <line>But to the heart suddenly I shall smite</line>
+            <line>Without any advisement.</line>
+            <line>And now out of thy sight I will me hie;</line>
+            <line>See thou make thee ready shortly,</line>
+            <line>For thou mayst say this is the day</line>
+            <line>That no man living may scape away.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Alas, I may well weep with sighs
+                deep;</line>
+            <line>Now have I no manner of company</line>
+            <line>To help me in my journey, and me to keep;</line>
+            <line>And also my writing is full unready.</line>
+            <line>How shall I do now for to excuse me?</line>
+            <line>I would to <referent char="God">God</referent> I had never be gete!<note n="10"
+                /></line>
+            <line>To my soul a full great profit it had be;</line>
+            <line>For now I fear pains huge and great.</line>
+            <line>The time passeth; <referent char="God">Lord</referent>, help that all
+                wrought;</line>
+            <line>For though I mourn it availeth nought.</line>
+            <line>The day passeth, and is almost a-go;</line>
+            <line>I wot not well what for to do.</line>
+            <line>To whom were I best my complaint to make?</line>
+            <line>What, and I to <referent char="Fellowship">Fellowship</referent> thereof
+                spake,</line>
+            <line>And showed him of this sudden chance?</line>
+            <line>For in him is all mine affiance;</line>
+            <line>We have in the world so many a day</line>
+            <line>Be on good friends in sport and play.</line>
+            <line>I see him yonder, certainly;</line>
+            <line>I trust that he will bear me company;</line>
+            <line>Therefore to him will I speak to ease my sorrow.</line>
+            <line>Well met, good <referent char="Fellowship">Fellowship</referent>, and good
+                morrow!</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker>
+                <referent char="Everyman">Everyman</referent>, good morrow by this day.</line>
+            <line>Sir, why lookest thou so piteously?</line>
+            <line>If any thing be amiss, I pray thee, me say,</line>
+            <line>That I may help to remedy.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Yea, good <referent char="Fellowship"
+                    >Fellowship</referent>, yea,</line>
+            <line>I am in great jeopardy.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> My true friend, show to me your
+                mind;</line>
+            <line>I will not forsake thee, unto my life's end,</line>
+            <line>In the way of good company.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> That was well spoken, and
+                lovingly.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> Sir, I must needs know your
+                heaviness;</line>
+            <line>I have pity to see you in any distress;</line>
+            <line>If any have you wronged ye shall revenged be,</line>
+            <line>Though I on the ground be slain for thee,--</line>
+            <line>Though that I know before that I should die.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Verily, <referent char="Fellowship"
+                    >Fellowship</referent>, gramercy.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> Tush! by thy thanks I set not a
+                straw.</line>
+            <line>Show me your grief, and say no more.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> If I my heart should to you
+                break,</line>
+            <line>And then you to turn your mind from me,</line>
+            <line>And would not me comfort, when you hear me speak,</line>
+            <line>Then should I ten times sorrier be.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> Sir, I say as I will do in
+                deed.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Then be you a good friend at
+                need:</line>
+            <line>I have found you true here before.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> And so ye shall evermore;</line>
+            <line>For, in faith, and thou go to Hell,</line>
+            <line>I will not forsake thee by the way!</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Ye speak like a good friend; I believe
+                you well;</line>
+            <line>I shall deserve it, and I may.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> I speak of no deserving, by this
+                day.</line>
+            <line>For he that will say and nothing do</line>
+            <line>Is not worthy with good company to go;</line>
+            <line>Therefore show me the grief of your mind,</line>
+            <line>As to your friend most loving and kind.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> I shall show you how it is;</line>
+            <line>Commanded I am to go a journey,</line>
+            <line>A long way, hard and dangerous,</line>
+            <line>And give a strait count without delay</line>
+            <line>Before <referent char="God">the high judge Adonai</referent>.<note n="11"/></line>
+            <line>Wherefore I pray you, bear me company,</line>
+            <line>As ye have promised, in this journey.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> That is matter indeed! Promise is
+                duty,</line>
+            <line>But, and I should take such a voyage on me,</line>
+            <line>I know it well, it should be to my pain:</line>
+            <line>Also it make me afeard, certain.</line>
+            <line>But let us take counsel here as well as we can,</line>
+            <line>For your words would fear a strong man.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Why, ye said, If I had need,</line>
+            <line>Ye would me never forsake, quick nor dead,</line>
+            <line>Though it were to hell truly.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> So I said, certainly,</line>
+            <line>But such pleasures be set aside, thee sooth to say:</line>
+            <line>And also, if we took such a journey,</line>
+            <line>When should we come again?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Nay, never again till the day of
+                doom.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> In faith, then will not I come
+                there!</line>
+            <line>Who hath you these tidings brought?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Indeed, <referent char="Death"
+                    >Death</referent> was with me here.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> Now, by <referent char="God"
+                    >God</referent> that all hath bought,</line>
+            <line>If <referent char="Death">Death</referent> were the messenger,</line>
+            <line>For no man that is living to-day</line>
+            <line>I will not go that loath journey--</line>
+            <line>Not for the father that begat me!</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Ye promised other wise, pardie.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> I wot well I say so truly;</line>
+            <line>And yet if thou wilt eat, and drink, and make good cheer,</line>
+            <line>Or haunt to women, the lusty company,</line>
+            <line>I would not forsake you, while the day is clear,</line>
+            <line>Trust me verily!</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Yea, thereto ye would be ready;</line>
+            <line>To go to mirth, solace, and play,</line>
+            <line>Your mind will sooner apply</line>
+            <line>Than to bear me company in my long journey.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> Now, in good faith, I will not
+                that way.</line>
+            <line>But and thou wilt murder, or any man kill,</line>
+            <line>In that I will help thee with a good will!</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> O that is a simple advice
+                indeed!</line>
+            <line>Gentle <referent char="Fellowship">fellow</referent>, help me in my
+                necessity;</line>
+            <line>We have loved long, and now I need,</line>
+            <line>And now, gentle <referent char="Fellowship">Fellowship</referent>, remember
+                me.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> Whether ye have loved me or
+                no,</line>
+            <line>By Saint John, I will not with thee go.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Yet I pray thee, take the labour, and
+                do so much for me</line>
+            <line>To bring me forward, for <referent char="Saint-Charity">saint
+                charity</referent>,</line>
+            <line>And comfort me till I come without the town.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> Nay, and thou would give me a new
+                gown,</line>
+            <line>I will not a foot with thee go;</line>
+            <line>But and you had tarried I would not have left thee so.</line>
+            <line>And as now, <referent char="God">God</referent> speed thee in thy journey,</line>
+            <line>For from thee I will depart as fast as I may.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Whither away, <referent
+                    char="Fellowship">Fellowship</referent>? will you forsake me?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> Yea, by my fay, to <referent
+                    char="God">God</referent> I betake thee.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Farewell, good <referent
+                    char="Fellowship">Fellowship</referent>; for this my heart is sore;</line>
+            <line>Adieu for ever, I shall see thee no more.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Fellowship">Fellowship</speaker> In faith, <referent
+                    char="Everyman">Everyman</referent>, farewell now at the end;</line>
+            <line>For you I will remember that parting is mourning.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Alack! shall we thus depart
+                indeed?</line>
+            <line><referent char="Mary">Our Lady</referent>, help, without any more comfort,</line>
+            <line>Lo, <referent char="Fellowship">Fellowship</referent> forsaketh me in my most
+                need:</line>
+            <line>For help in this world whither shall I resort?</line>
+            <line><referent char="Fellowship">Fellowship</referent> herebefore with me would merry
+                make;</line>
+            <line>And now little sorrow for me doth he take.</line>
+            <line>It is said, in prosperity men friends may find,</line>
+            <line>Which in adversity be full unkind.</line>
+            <line>Now whither for succour shall I flee,</line>
+            <line>Sith that <referent char="Fellowship">Fellowship</referent> hath forsaken
+                me?</line>
+            <line>To my <referent char="Kindred Cousin">kinsmen</referent> I will truly,</line>
+            <line>Praying them to help me in my necessity;</line>
+            <line>I believe that they will do so,</line>
+            <line>For kind will creep where it may not go.</line>
+            <line>I will go say, for yonder I see them go.</line>
+            <line>Where be ye now, my friends and <referent char="Kindred Cousin"
+                >kinsmen</referent>?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Kindred">Kindred</speaker> Here be we now at your
+                commandment.</line>
+            <line><referent char="Cousin">Cousin</referent>, I pray you show us your intent</line>
+            <line>In any wise, and not spare.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Cousin">Cousin</speaker> Yea, <referent char="Everyman"
+                    >Everyman</referent>, and to us declare</line>
+            <line>If ye be disposed to go any whither,</line>
+            <line>For wete you well, we will live and die together.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Kindred">Kindred</speaker> In wealth and woe we will with you
+                hold,</line>
+            <line>For over his kin a man may be bold.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Gramercy, my friends and <referent
+                    char="Kindred Cousin">kinsmen</referent> kind.</line>
+            <line>Now shall I show you the grief of my mind:</line>
+            <line>I was commanded by a <referent char="Messenger">messenger</referent>,</line>
+            <line>That is <referent char="God">an high king</referent>'s chief officer;</line>
+            <line>He bade me go a pilgrimage to my pain,</line>
+            <line>And I know well I shall never come again;</line>
+            <line>Also I must give a reckoning straight,</line>
+            <line>For I have a <referent char="Devil">great enemy</referent>, that hath me in
+                wait,</line>
+            <line>Which intendeth me for to hinder.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Kindred">Kindred</speaker> What account is that which ye must
+                render?</line>
+            <line>That would I know.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Of all my works I must show</line>
+            <line>How I have lived and my days spent;</line>
+            <line>Also of ill deeds, that I have used</line>
+            <line>In my time, sith life was me lent;</line>
+            <line>And of all virtues that I have refused.</line>
+            <line>Therefore I pray you go thither with me,</line>
+            <line>To help to make mine account, for <referent char="Saint-Charity"
+                >saint charity</referent>.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Cousin">Cousin</speaker> What, to go thither? Is that the
+                matter?</line>
+            <line>Nay, <referent char="Everyman">Everyman</referent>, I had liefer fast bread and
+                water</line>
+            <line>All this five year and more.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Alas, that ever I was bore!<note
+                    n="12"/></line>
+            <line>For now shall I never be merry</line>
+            <line>If that you forsake me.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Kindred">Kindred</speaker> Ah, sir; what, ye be a merry man!</line>
+            <line>Take good heart to you, and make no moan.</line>
+            <line>But one thing I warn you, by Saint Anne,</line>
+            <line>As for me, ye shall go alone.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> My <referent char="Cousin"
+                    >Cousin</referent>, will you not with me go?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Cousin">Cousin</speaker> No, by <referent char="Mary">our
+                    Lady</referent>; I have the cramp in my toe.</line>
+            <line>Trust not to me, for, so <referent char="God">God</referent> me speed,</line>
+            <line>I will deceive you in your most need,</line>
+            <line><referent char="Kindred">Kindred</referent> It availeth not us to tice.</line>
+            <line>Ye shall have my maid with all my heart;</line>
+            <line>She loveth to go to feasts, there to be nice,</line>
+            <line>And to dance, and abroad to start:</line>
+            <line>I will give her leave to help you in that journey,</line>
+            <line>If that you and she may agree.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Now show me the very effect of your
+                mind.</line>
+            <line>Will you go with me, or abide behind?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Kindred">Kindred</speaker> Abide behind? yea, that I will and I
+                may!</line>
+            <line>Therefore farewell until another day.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> How should I be merry or glad?</line>
+            <line>For fair promises to me make,</line>
+            <line>But when I have most need, they me forsake.</line>
+            <line>I am deceived; that maketh me sad.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Cousin">Cousin</speaker> Cousin <referent char="Everyman"
+                    >Everyman</referent>, farewell now,</line>
+            <line>For verily I will not go with you;</line>
+            <line>Also of mine own an unready reckoning</line>
+            <line>I have to account; therefore I make tarrying.</line>
+            <line>Now, <referent char="God">God</referent> keep thee, for now I go.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Ah, <referent char="God" person="Son"
+                    >Jesus</referent>, is all come hereto?</line>
+            <line>Lo, fair words maketh fools feign;</line>
+            <line>They promise and nothing will do certain.</line>
+            <line>My <referent char="Kindred Cousin">kinsmen</referent> promised me
+                faithfully</line>
+            <line>For to abide with me steadfastly,</line>
+            <line>And now fast away do they flee:</line>
+            <line>Even so <referent char="Fellowship">Fellowship</referent> promised me.</line>
+            <line>What friend were best me of to provide?</line>
+            <line>I lose my time here longer to abide.</line>
+            <line>Yet in my mind a thing there is;--</line>
+            <line>All my life I have loved riches;</line>
+            <line>If that my good now help me might,</line>
+            <line>He would make my heart full light.</line>
+            <line>I will speak to him in this distress.--</line>
+            <line>Where art thou, my <referent char="Goods">Goods</referent> and riches?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Goods">Goods</speaker> Who calleth me? <referent char="Everyman"
+                    >Everyman</referent>? what haste thou hast!</line>
+            <line>I lie here in corners, trussed and piled so high,</line>
+            <line>And in chests I am locked so fast,</line>
+            <line>Also sacked in bags, thou mayst see with thine eye,</line>
+            <line>I cannot stir; in packs low I lie.</line>
+            <line>What would ye have, lightly me say.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Come hither, <referent char="Goods"
+                    >Good</referent>, in all the haste thou may,</line>
+            <line>For of counsel I must desire thee.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Goods">Goods</speaker> Sir, and ye in the world have trouble or
+                adversity,</line>
+            <line>That can I help you to remedy shortly.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> It is another disease that grieveth
+                me;</line>
+            <line>In this world it is not, I tell thee so.</line>
+            <line>I am sent for another way to go,</line>
+            <line>To give a straight account general</line>
+            <line>Before the <referent char="God">highest Jupiter of all</referent>;</line>
+            <line>And all my life I have had joy and pleasure in thee.</line>
+            <line>Therefore I pray thee go with me,</line>
+            <line>For, peradventure, thou mayst before <referent char="God">God
+                Almighty</referent></line>
+            <line>My reckoning help to clean and purify;</line>
+            <line>For it is said ever among,</line>
+            <line>That money maketh all right that is wrong.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Goods">Goods</speaker> Nay, <referent char="Everyman"
+                    >Everyman</referent>, I sing another song,</line>
+            <line>I follow no man in such voyages;</line>
+            <line>For and I went with thee</line>
+            <line>Thou shouldst fare much the worse for me;</line>
+            <line>For because on me thou did set thy mind,</line>
+            <line>Thy reckoning I have made blotted and blind,</line>
+            <line>That thine account thou cannot make truly;</line>
+            <line>And that hast thou for the love of me.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> That would grieve me full sore,</line>
+            <line>When I should come to that fearful answer.</line>
+            <line>Up, let us go thither together.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Goods">Goods</speaker> Nay, not so, I am too brittle, I may not
+                endure;</line>
+            <line>I will follow no man one foot, be ye sure.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Alas, I have thee loved, and had great
+                pleasure</line>
+            <line>All my life-days on good and treasure.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Goods">Goods</speaker> That is to thy damnation without
+                lesing,</line>
+            <line>For my love is contrary to the love everlasting.</line>
+            <line>But if thou had me loved moderately during,</line>
+            <line>As, to the poor give part of me,</line>
+            <line>Then shouldst thou not in this dolour be,</line>
+            <line>Nor in this great sorrow and care.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Lo, now was I deceived or I was
+                ware,</line>
+            <line>And all I may wyte<note n="13"/> my spending of time.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Goods">Goods</speaker> What, weenest thou that I am thine?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> I had wend so.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Goods">Goods</speaker> Nay, <referent char="Everyman"
+                    >Everyman</referent>, I say no;</line>
+            <line>As for a while I was lent thee,</line>
+            <line>A season thou hast had me in prosperity;</line>
+            <line>My condition is man's soul to kill;</line>
+            <line>If I save one, a thousand I do spill;</line>
+            <line>Weenest thou that I will follow thee?</line>
+            <line>Nay, from this world, not verily.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> I had wend otherwise.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Goods">Goods</speaker> Therefore to thy soul <referent char="Goods"
+                    >Good</referent> is a thief;</line>
+            <line>For when thou art dead, this is my guise</line>
+            <line>Another to deceive in the same wise</line>
+            <line>As I have done thee, and all to his soul's reprief.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> O false <referent char="Goods"
+                    >Good</referent>, cursed thou be!</line>
+            <line>Thou traitor to <referent char="God">God</referent>, that hast deceived me,</line>
+            <line>And caught me in thy snare.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Goods">Goods</speaker> Marry, thou brought thyself in care,</line>
+            <line>Whereof I am glad,</line>
+            <line>I must needs laugh, I cannot be sad.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Ah, <referent char="Goods"
+                    >Good</referent>, thou hast had long my heartly love;</line>
+            <line>I gave thee that which should be the <referent char="God">Lord</referent>'s
+                above.</line>
+            <line>But wilt thou not go with me in deed?</line>
+            <line>I pray thee truth to say.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Goods">Goods</speaker> No, so <referent char="God">God</referent>
+                me speed,</line>
+            <line>Therefore farewell, and have good day.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> O, to whom shall I make my moan</line>
+            <line>For to go with me in that heavy journey?</line>
+            <line>First <referent char="Fellowship">Fellowship</referent> said he would with me
+                gone;</line>
+            <line>His words were very pleasant and gay,</line>
+            <line>But afterward he left me alone.</line>
+            <line>Then spake I to my <referent char="Kindred Cousin">kinsmen</referent> all in
+                despair,</line>
+            <line>And also they gave me words fair,</line>
+            <line>They lacked no fair speaking,</line>
+            <line>But all forsake me in the ending.</line>
+            <line>Then went I to my <referent char="Goods">Goods</referent> that I loved
+                best,</line>
+            <line>In hope to have comfort, but there had I least;</line>
+            <line>For my <referent char="Goods">Goods</referent> sharply did me tell</line>
+            <line>That he bringeth many into hell.</line>
+            <line>Then of myself I was ashamed,</line>
+            <line>And so I am worthy to be blamed;</line>
+            <line>Thus may I well myself hate.</line>
+            <line>Of whom shall I now counsel take?</line>
+            <line>I think that I shall never speed</line>
+            <line>Till that I go to my <referent char="Good-Deeds">Good-Deed</referent>,</line>
+            <line>But alas, she is so weak,</line>
+            <line>That she can neither go nor speak;</line>
+            <line>Yet will I venture on her now.--</line>
+            <line>My <referent char="Good-Deeds">Good-Deeds</referent>, where be you?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> Here I lie cold in the
+                ground;</line>
+            <line>Thy sins hath me sore bound,</line>
+            <line>That I cannot stir.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> O, <referent char="Good-Deeds"
+                    >Good-Deeds</referent>, I stand in fear;</line>
+            <line>I must you pray of counsel,</line>
+            <line>For help now should come right well.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker>
+                <referent char="Everyman">Everyman</referent>, I have understanding</line>
+            <line>That ye be summoned account to make</line>
+            <line>Before <referent char="God" person="Son">Messias, of Jerusalem
+                King</referent>;</line>
+            <line>And you do by me<note n="14"/> that journey what<note n="15"/> you will I
+                take.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Therefore I come to you, my moan to
+                make;</line>
+            <line>I pray you, that ye will go with me.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> I would full fain, but I cannot
+                stand verily.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Why, is there anything on you
+                fall?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> Yea, sir, I may thank you of
+                all;</line>
+            <line>If ye had perfectly cheered me,</line>
+            <line>Your book of account now full ready had be.</line>
+            <line>Look, the books of your works and deeds eke;</line>
+            <line>Oh, see how they lie under the feet,</line>
+            <line>To your soul's heaviness.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker>
+                <referent char="God" person="Son">Our Lord Jesus</referent>, help me!</line>
+            <line>For one letter here I can not see.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> There is a blind reckoning in time
+                of distress!</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker>
+                <referent char="Good-Deeds">Good-Deeds</referent>, I pray you, help me in this
+                need,</line>
+            <line>Or else I am for ever damned indeed;</line>
+            <line>Therefore help me to make reckoning</line>
+            <line>Before <referent char="God" person="Son">the redeemer of all
+                thing</referent>,</line>
+            <line>That <referent char="God" person="Son">king</referent> is, and was, and ever
+                shall.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker>
+                <referent char="Everyman">Everyman</referent>, I am sorry of your fall,</line>
+            <line>And fain would I help you, and I were able.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker>
+                <referent char="Good-Deeds">Good-Deeds</referent>, your counsel I pray you give
+                me.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> That shall I do verily;</line>
+            <line>Though that on my feet I may not go,</line>
+            <line>I have a sister, that shall with you also,</line>
+            <line>Called <referent char="Knowledge">Knowledge</referent>, which shall with you
+                abide,</line>
+            <line>To help you to make that dreadful reckoning.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker>
+                <referent char="Everyman">Everyman</referent>, I will go with thee, and be thy
+                guide,</line>
+            <line>In thy most need to go by thy side.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> In good condition I am now in every
+                thing,</line>
+            <line>And am wholly content with this good thing;</line>
+            <line>Thanked be <referent char="God">God my Creator</referent>.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> And when he hath brought thee
+                there,</line>
+            <line>Where thou shalt heal thee of thy smart,</line>
+            <line>Then go you with your reckoning and your <referent char="Good-Deeds"
+                    >Good-Deeds</referent> together</line>
+            <line>For to make you joyful at heart</line>
+            <line>Before the <referent char="God">blessed Trinity</referent>.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> My <referent char="Good-Deeds"
+                    >Good-Deeds</referent>, gramercy;</line>
+            <line>I am well content, certainly,</line>
+            <line>With your words sweet.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker> Now go we together lovingly,</line>
+            <line>To <referent char="Confession">Confession</referent>, that cleansing river.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> For joy I weep; I would we were
+                there;</line>
+            <line>But, I pray you, give me cognition</line>
+            <line>Where dwelleth that holy man, <referent char="Confession"
+                >Confession</referent>.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker> In the house of salvation:</line>
+            <line>We shall find him in that place,</line>
+            <line>That shall us comfort by <referent char="God">God</referent>'s grace.</line>
+            <line>Lo, this is <referent char="Confession">Confession</referent>; kneel down and ask
+                mercy,</line>
+            <line>For he is in good conceit with <referent char="God">God
+                almighty</referent>.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> O glorious fountain that all
+                uncleanness doth clarify,</line>
+            <line>Wash from me the spots of vices unclean,</line>
+            <line>That on me no sin may be seen;</line>
+            <line>I come with <referent char="Knowledge">Knowledge</referent> for my
+                redemption,</line>
+            <line>Repent with hearty and full contrition;</line>
+            <line>For I am commanded a pilgrimage to take,</line>
+            <line>And great accounts before <referent char="God">God</referent> to make.</line>
+            <line>Now, I pray you, <referent char="Confession">Shrift, mother of
+                    salvation</referent>,</line>
+            <line>Help my good deeds for my piteous exclamation.</line>
+        </speech>
+        <!-- WHC: "Shrift" is a synonym for "Confession" and so is not a separate character. -->
+
+        <speech>
+            <line><speaker char="Confession">Confession</speaker> I know your sorrow well, <referent
+                    char="Everyman">Everyman</referent>;</line>
+            <line>Because with <referent char="Knowledge">Knowledge</referent> ye come to me,</line>
+            <line>I will you comfort as well as I can,</line>
+            <line>And a precious jewel I will give thee,</line>
+            <line>Called penance, wise voider of adversity;</line>
+            <line>Therewith shall your body chastised be,</line>
+            <line>With abstinence and perseverance in <referent char="God">God</referent>'s
+                service:</line>
+            <line>Here shall you receive that scourge of me,</line>
+            <line>Which is penance strong, that ye must endure,</line>
+            <line>To remember thy <referent char="God" person="Son">Saviour</referent> was scourged
+                for thee</line>
+            <line>With sharp scourges, and suffered it patiently;</line>
+            <line>So must thou, or thou scape that painful pilgrimage;</line>
+            <line><referent char="Knowledge">Knowledge</referent>, keep him in this voyage,</line>
+            <line>And by that time <referent char="Good-Deeds">Good-Deeds</referent> will be with
+                thee.</line>
+            <line>But in any wise, be sure of mercy,</line>
+            <line>For your time draweth fast, and ye will saved be;</line>
+            <line>Ask <referent char="God">God</referent> mercy, and He will grant truly,</line>
+            <line>When with the scourge of penance man doth him bind,</line>
+            <line>The oil of forgiveness then shall he find.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Thanked be <referent char="God"
+                    >God</referent> for his gracious work!</line>
+            <line>For now I will my penance begin;</line>
+            <line>This hath rejoiced and lighted my heart,</line>
+            <line>Though the knots be painful and hard within.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker>
+                <referent char="Everyman">Everyman</referent>, look your penance that ye
+                fulfil,</line>
+            <line>What pain that ever it to you be,</line>
+            <line>And <referent char="Knowledge">Knowledge</referent> shall give you counsel at
+                will,</line>
+            <line>How your accounts ye shall make clearly.</line>
+        </speech>
+
+        <!--WHC 20-FEB-2021: this speech contains many titles for God. I haven't marked each one, as in a sense the whole speech (down to the address to Mary) is a single address to God, so it would be wrong for mathematial purposes to count it as many references. However, if preparing a list of the many titles used for God in this play, it would be desirable to makr up each. This would best be achieved though a more complex use of attribute values.-->
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> O <referent char="God">eternal
+                    God</referent>, O heavenly figure,</line>
+            <line>O way of rightwiseness, O goodly vision,</line>
+            <line>Which descended down in a <referent char="Mary">virgin pure</referent></line>
+            <line>Because he would <referent char="Everyman">Everyman</referent> redeem,</line>
+            <line>Which <referent char="Adam">Adam</referent> forfeited by his disobedience:</line>
+            <line>O blessed Godhead, elect and high-divine,</line>
+            <line>Forgive my grievous offence;</line>
+            <line>Here I cry thee mercy in this presence.</line>
+            <line>O ghostly treasure, O ransomer and redeemer</line>
+            <line>Of all the world, hope and conductor,</line>
+            <line>Mirror of joy, and founder of mercy,</line>
+            <line>Which illumineth heaven and earth thereby,</line>
+            <line>Hear my clamorous complaint, though it late be;</line>
+            <line>Receive my prayers; unworthy in this heavy life,</line>
+            <line>Though I be, a sinner most abominable,</line>
+            <line>Yet let my name be written in <referent char="Moses">Moses</referent>'
+                table;</line>
+            <line>O <referent char="Mary">Mary</referent>, pray to <referent char="God">the Maker of
+                    all thing</referent>,</line>
+            <line>Me for to help at my ending,</line>
+            <line>And save me from the power of my <referent char="Devil">enemy</referent>,</line>
+            <line>For <referent char="Death">Death</referent> assaileth me strongly;</line>
+            <line>And, <referent char="Mary">Lady</referent>, that I may by means of thy
+                prayer</line>
+            <line>Of your <referent char="God" person="Son">Son</referent>'s glory to be
+                partaker,</line>
+            <line>By the means of his passion I it crave,</line>
+            <line>I beseech you, help my soul to save.--</line>
+            <line><referent char="Knowledge">Knowledge</referent>, give me the scourge of
+                penance;</line>
+            <line>My flesh therewith shall give a quittance:</line>
+            <line>I will now begin, if <referent char="God">God</referent> give me grace.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker>
+                <referent char="Everyman">Everyman</referent>, <referent char="God">God</referent>
+                give you time and space:</line>
+            <line>Thus I bequeath you in the hands of our <referent char="God" person="Son"
+                    >Saviour</referent>,</line>
+            <line>Thus may you make your reckoning sure.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> In the name of the <referent
+                    char="God">Holy Trinity</referent>,</line>
+            <line>My body sore punished shall be:</line>
+            <line>Take this body for the sin of the flesh;</line>
+            <line>Also thou delightest to go gay and fresh,</line>
+            <line>And in the way of damnation thou did me bring;</line>
+            <line>Therefore suffer now strokes and punishing.</line>
+            <line>Now of penance I will wade the water clear,</line>
+            <line>To save me from purgatory, that sharp fire.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> I thank <referent char="God"
+                    >God</referent>, now I can walk and go;</line>
+            <line>And am delivered of my sickness and woe.</line>
+            <line>Therefore with <referent char="Everyman">Everyman</referent> I will go, and not
+                spare;</line>
+            <line>His good works I will help him to declare.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker> Now, <referent char="Everyman"
+                    >Everyman</referent>, be merry and glad;</line>
+            <line>Your <referent char="Good-Deeds">Good-Deeds</referent> cometh now; ye may not be
+                sad;</line>
+            <line>Now is your <referent char="Good-Deeds">Good-Deeds</referent> whole and
+                sound,</line>
+            <line>Going upright upon the ground.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> My heart is light, and shall be
+                evermore;</line>
+            <line>Now will I smite faster than I did before.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker>
+                <referent char="Everyman">Everyman</referent>, pilgrim, my special friend,</line>
+            <line>Blessed be thou without end;</line>
+            <line>For thee is prepared the eternal glory.</line>
+            <line>Ye have me made whole and sound,</line>
+            <line>Therefore I will bide by thee in every stound.<note n="16"/></line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Welcome, my <referent
+                    char="Good-Deeds">Good-Deeds</referent>; now I hear thy voice,</line>
+            <line>I weep for very sweetness of love.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker> Be no more sad, but ever
+                rejoice,</line>
+            <line><referent char="God">God</referent> seeth thy living in his throne above;</line>
+            <line>Put on this garment to thy behove,</line>
+            <line>Which is wet with your tears,</line>
+            <line>Or else before <referent char="God">God</referent> you may it miss,</line>
+            <line>When you to your journey's end come shall.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Gentle <referent char="Knowledge"
+                    >Knowledge</referent>, what do you it call?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker> It is a garment of sorrow:</line>
+            <line>From pain it will you borrow;</line>
+            <line>Contrition it is,</line>
+            <line>That getteth forgiveness;</line>
+            <line>It pleaseth <referent char="God">God</referent> passing well.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker>
+                <referent char="Everyman">Everyman</referent>, will you wear it for your
+                heal?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Now blessed be <referent char="God"
+                    person="Son">Jesu</referent>, <referent char="Mary">Mary</referent>'s
+                Son!</line>
+            <line>For now have I on true contrition.</line>
+            <line>And let us go now without tarrying;</line>
+            <line><referent char="Good-Deeds">Good-Deeds</referent>, have we clear our
+                reckoning?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> Yea, indeed I have it here.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Then I trust we need not fear;</line>
+            <line>Now, friends, let us not part in twain.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker> Nay, <referent char="Everyman"
+                    >Everyman</referent>, that will we not, certain.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> Yet must thou lead with
+                thee</line>
+            <line>Three persons of great might.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Who should they be?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker>
+                <referent char="Discretion">Discretion</referent> and <referent char="Strength"
+                    >Strength</referent> they hight,</line>
+            <line>And thy <referent char="Beauty">Beauty</referent> may not abide behind.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker> Also ye must call to mind</line>
+            <line>Your <referent char="Five-Wits">Five-wits</referent> as for your
+                counsellors.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> You must have them ready at all
+                hours.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> How shall I get them hither?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker> You must call them all
+                together,</line>
+            <line>And they will hear you incontinent.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> My friends, come hither and be
+                present</line>
+            <line><referent char="Discretion">Discretion</referent>, <referent char="Strength"
+                    >Strength</referent>, my <referent char="Five-Wits">Five-wits</referent>, and
+                    <referent char="Beauty">Beauty</referent>.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Beauty">Beauty</speaker> Here at your will we be all ready.</line>
+            <line>What will ye that we should do?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> That ye would with <referent
+                    char="Everyman">Everyman</referent> go,</line>
+            <line>And help him in his pilgrimage,</line>
+            <line>Advise you, will ye with him or not in that voyage?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Strength">Strength</speaker> We will bring him all thither,</line>
+            <line>To his help and comfort, ye may believe me.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Discretion">Discretion</speaker> So will we go with him all
+                together.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker>
+                <referent char="God">Almighty God</referent>, loved thou be,</line>
+            <line>I give thee laud that I have hither brought</line>
+            <line><referent char="Strength">Strength</referent>, <referent char="Discretion"
+                    >Discretion</referent>, <referent char="Beauty">Beauty</referent>, and <referent
+                    char="Five-Wits">Five-wits</referent>; lack I nought;</line>
+            <line>And my <referent char="Good-Deeds">Good-Deeds</referent>, with <referent
+                    char="Knowledge">Knowledge</referent> clear,</line>
+            <line>All be in my company at my will here;</line>
+            <line>I desire no more to my business.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Strength">Strength</speaker> And I, <referent char="Strength"
+                    >Strength</referent>, will by you stand in distress,</line>
+            <line>Though thou would in battle fight on the ground.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Five-Wits">Five-wits</speaker> And though it were through the world
+                round,</line>
+            <line>We will not depart for sweet nor sour.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Beauty">Beauty</speaker> No more will I unto death's hour,</line>
+            <line>Whatsoever thereof befall.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Discretion">Discretion</speaker>
+                <referent char="Everyman">Everyman</referent>, advise you first of all;</line>
+            <line>Go with a good advisement and deliberation;</line>
+            <line>We all give you virtuous monition</line>
+            <line>That all shall be well.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> My friends, hearken what I will
+                tell:</line>
+            <line>I pray <referent char="God">God</referent> reward you in his heavenly
+                sphere.</line>
+            <line>Now hearken, all that be here,</line>
+            <line>For I will make my testament</line>
+            <line>Here before you all present.</line>
+            <line>In alms half my good I will give with my hands twain</line>
+            <line>In the way of charity, with good intent,</line>
+            <line>And the other half still shall remain</line>
+            <line>In quiet to be returned there it ought to be.</line>
+            <line>This I do in despite of <referent char="Devil">the fiend of hell</referent></line>
+            <line>To go quite out of his peril</line>
+            <line>Ever after and this day.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker>
+                <referent char="Everyman">Everyman</referent>, hearken what I say;</line>
+            <line>Go to priesthood, I you advise,</line>
+            <line>And receive of him in any wise</line>
+            <line>The holy sacrament and ointment together;</line>
+            <line>Then shortly see ye turn again hither;</line>
+            <line>We will all abide you here.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Five-Wits">Five-Wits</speaker> Yea, <referent char="Everyman"
+                    >Everyman</referent>, hie you that ye ready were,</line>
+            <line>There is no emperor, king, duke, ne baron,</line>
+            <line>That of <referent char="God">God</referent> hath commission,</line>
+            <line>As hath the least priest in the world being;</line>
+            <line>For of the blessed sacraments pure and benign,</line>
+            <line>He beareth the keys and thereof hath the cure</line>
+            <line>For man's redemption, it is ever sure;</line>
+            <line>Which <referent char="God">God</referent> for our soul's medicine</line>
+            <line>Gave us out of his heart with great pine;</line>
+            <line>Here in this transitory life, for thee and me</line>
+            <line>The blessed sacraments seven there be,</line>
+            <line>Baptism, confirmation, with priesthood good,</line>
+            <line>And the sacrament of <referent char="God" person="Son">God</referent>'s precious
+                flesh and blood,</line>
+            <line>Marriage, the holy extreme unction, and penance;</line>
+            <line>These seven be good to have in remembrance,</line>
+            <line>Gracious sacraments of high divinity.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Fain would I receive that holy
+                body</line>
+            <line>And meekly to my ghostly father I will go.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Five-Wits">Five-wits</speaker>
+                <referent char="Everyman">Everyman</referent>, that is the best that ye can
+                do:</line>
+            <line><referent char="God">God</referent> will you to salvation bring,</line>
+            <line>For priesthood exceedeth all other thing;</line>
+            <line>To us Holy Scripture they do teach,</line>
+            <line>And converteth man from sin heaven to reach;</line>
+            <line><referent char="God">God</referent> hath to them more power given,</line>
+            <line>Than to any angel that is in heaven;</line>
+            <line>With five words he may consecrate</line>
+            <line><referent char="God" person="Son">God</referent>'s body in flesh and blood to
+                make,</line>
+            <line>And handleth <referent char="God" person="Son">his maker</referent> between his
+                hands;</line>
+            <line>The priest bindeth and unbindeth all bands,</line>
+            <line>Both in earth and in heaven;</line>
+            <line>Thou ministers all the sacraments seven;</line>
+            <line>Though we kissed thy feet thou were worthy;</line>
+            <line>Thou art surgeon that cureth sin deadly:</line>
+            <line>No remedy we find under <referent char="God">God</referent></line>
+            <line>But all only priesthood.</line>
+            <line><referent char="Everyman">Everyman</referent>, <referent char="God">God</referent>
+                gave priests that dignity,</line>
+            <line>And setteth them in his stead among us to be;</line>
+            <line>Thus be they above angels in degree.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker> If priests be good it is so
+                surely;</line>
+            <line>But when <referent char="God" person="Son">Jesus</referent> hanged on the cross
+                with great smart</line>
+            <line>There he gave, out of his blessed heart,</line>
+            <line>The same sacrament in great torment:</line>
+            <line>He sold them not to us, that <referent char="God">Lord
+                Omnipotent</referent>.</line>
+            <line>Therefore Saint Peter the apostle doth say</line>
+            <line>That <referent char="God" person="Son">Jesu</referent>'s curse hath all
+                they</line>
+            <line>Which <referent char="God" person="Son">God their Saviour</referent> do buy or
+                sell,</line>
+            <line>Or they for any money do take or tell.</line>
+            <line>Sinful priests giveth the sinners example bad;</line>
+            <line>Their children sitteth by other men's fires, I have heard;</line>
+            <line>And some haunteth women's company,</line>
+            <line>With unclean life, as lusts of lechery</line>
+            <line>These be with sin made blind.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Five-Wits">Five-wits</speaker> I trust to <referent char="God"
+                    >God</referent> no such may we find;</line>
+            <line>Therefore let us priesthood honour,</line>
+            <line>And follow their doctrine for our souls' succour;</line>
+            <line>We be their sheep, and they shepherds be</line>
+            <line>By whom we all be kept in surety.</line>
+            <line>Peace, for yonder I see <referent char="Everyman">Everyman</referent> come,</line>
+            <line>Which hath made true satisfaction.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> Methinketh it is he indeed.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Now <referent char="God" person="Son"
+                    >Jesu</referent> be our alder speed.<note n="17"/></line>
+            <line>I have received the sacrament for my redemption,</line>
+            <line>And then mine extreme unction:</line>
+            <line>Blessed be all they that counselled me to take it!</line>
+            <line>And now, friends, let us go without longer respite;</line>
+            <line>I thank <referent char="God">God</referent> that ye have tarried so long.</line>
+            <line>Now set each of you on this rod your hand,</line>
+            <line>And shortly follow me:</line>
+            <line>I go before, there I would be; <referent char="God">God</referent> be our
+                guide.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Strength">Strength</speaker>
+                <referent char="Everyman">Everyman</referent>, we will not from you go,</line>
+            <line>Till ye have gone this voyage long.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Discretion">Discretion</speaker> I, <referent char="Discretion"
+                    >Discretion</referent>, will bide by you also.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker> And though this pilgrimage be never
+                so strong,</line>
+            <line>I will never part you fro:</line>
+            <line><referent char="Everyman">Everyman</referent>, I will be as sure by thee</line>
+            <line>As ever I did by <referent char="Judas-Maccabeus">Judas
+                Maccabee</referent>.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Alas, I am so faint I may not
+                stand,</line>
+            <line>My limbs under me do fold;</line>
+            <line>Friends, let us not turn again to this land,</line>
+            <line>Not for all the world's gold,</line>
+            <line>For into this cave must I creep</line>
+            <line>And turn to the earth and there to sleep.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Beauty">Beauty</speaker> What, into this grave? alas!</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Yea, there shall you consume more and
+                less.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Beauty">Beauty</speaker> And what, should I smother here?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Yea, by my faith, and never more
+                appear.</line>
+            <line>In this world live no more we shall,</line>
+            <line>But in heaven before <referent char="God">the highest Lord of
+                all</referent>.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Beauty">Beauty</speaker> I cross out all this; adieu by Saint
+                    <referent char="John">John</referent>;</line>
+            <line>I take my cap in my lap and am gone.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> What, <referent char="Beauty"
+                    >Beauty</referent>, whither will ye?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Beauty">Beauty</speaker> Peace, I am deaf; I look not behind
+                me,</line>
+            <line>Not and thou would give me all the gold in thy chest.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Alas, whereto may I trust?</line>
+            <line><referent char="Beauty">Beauty</referent> goeth fast away hie;</line>
+            <line>She promised with me to live and die.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Strength">Strength</speaker>
+                <referent char="Everyman">Everyman</referent>, I will thee also forsake and
+                deny;</line>
+            <line>Thy game liketh me not at all.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Why, then ye will forsake me
+                all.</line>
+            <line>Sweet <referent char="Strength">Strength</referent>, tarry a little space.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Strength">Strength</speaker> Nay, sir, by the rood of grace</line>
+            <line>I will hie me from thee fast,</line>
+            <line>Though thou weep till thy heart brast.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Ye would ever bide by me, ye
+                said.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Strength">Strength</speaker> Yea, I have you far enough
+                conveyed;</line>
+            <line>Ye be old enough, I understand,</line>
+            <line>Your pilgrimage to take on hand;</line>
+            <line>I repent me that I hither came.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker>
+                <referent char="Strength">Strength</referent>, you to displease I am to
+                blame;</line>
+            <line>Will you break promise that is debt?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Strength">Strength</speaker> In faith, I care not;</line>
+            <line>Thou art but a fool to complain,</line>
+            <line>You spend your speech and waste your brain;</line>
+            <line>Go thrust thee into the ground.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> I had wend surer I should you have
+                found.</line>
+            <line>He that trusteth in his <referent char="Strength">Strength</referent></line>
+            <line>She him deceiveth at the length.</line>
+            <line>Both <referent char="Strength">Strength</referent> and <referent char="Beauty"
+                    >Beauty</referent> forsaketh me,</line>
+            <line>Yet they promised me fair and lovingly.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Discretion">Discretion</speaker>
+                <referent char="Everyman">Everyman</referent>, I will after <referent
+                    char="Strength">Strength</referent> be gone,</line>
+            <line>As for me I will leave you alone.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Why, <referent char="Discretion"
+                    >Discretion</referent>, will ye forsake me?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Discretion">Discretion</speaker> Yea, in faith, I will go from
+                thee,</line>
+            <line>For when <referent char="Strength">Strength</referent> goeth before</line>
+            <line>I follow after evermore.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Yet, I pray thee, for the love of the
+                    <referent char="God">Trinity</referent>,</line>
+            <line>Look in my grave once piteously.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Discretion">Discretion</speaker> Nay, so nigh will I not
+                come.</line>
+            <line>Farewell, every one!</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> O all thing faileth, save <referent
+                    char="God">God</referent> alone;</line>
+            <line><referent char="Beauty">Beauty</referent>, <referent char="Strength"
+                    >Strength</referent>, and <referent char="Discretion"
+                >Discretion</referent>;</line>
+            <line>For when <referent char="Death">Death</referent> bloweth his blast,</line>
+            <line>They all run from me full fast.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Five-Wits">Five-wits</speaker>
+                <referent char="Everyman">Everyman</referent>, my leave now of thee I take;</line>
+            <line>I will follow the other, for here I thee forsake.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Alas! then may I wail and weep,</line>
+            <line>For I took you for my best friend.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Five-Wits">Five-wits</speaker> I will no longer thee keep;</line>
+            <line>Now farewell, and there an end.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> O <referent char="God" person="Son"
+                    >Jesu</referent>, help, all hath forsaken me!</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> Nay, <referent char="Everyman"
+                    >Everyman</referent>, I will bide with thee,</line>
+            <line>I will not forsake thee indeed;</line>
+            <line>Thou shalt find me a good friend at need.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Gramercy, <referent char="Good-Deeds"
+                    >Good-Deeds</referent>; now may I true friends see;</line>
+            <line>They have forsaken me every one;</line>
+            <line>I loved them better than my <referent char="Good-Deeds">Good-Deeds</referent>
+                alone.</line>
+            <line><referent char="Knowledge">Knowledge</referent>, will ye forsake me also?</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker> Yea, <referent char="Everyman"
+                    >Everyman</referent>, when ye to death do go:</line>
+            <line>But not yet for no manner of danger.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Gramercy, <referent char="Knowledge"
+                    >Knowledge</referent>, with all my heart.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker> Nay, yet I will not from hence
+                depart,</line>
+            <line>Till I see where ye shall be come.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Methinketh, alas, that I must be
+                gone,</line>
+            <line>To make my reckoning and my debts pay,</line>
+            <line>For I see my time is nigh spent away.</line>
+            <line>Take example, all ye that this do hear or see,</line>
+            <line>How they that I loved best do forsake me,</line>
+            <line>Except my <referent char="Good-Deeds">Good-Deeds</referent> that bideth
+                truly.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> All earthly things is but
+                vanity:</line>
+            <line><referent char="Beauty">Beauty</referent>, <referent char="Strength"
+                    >Strength</referent>, and <referent char="Discretion">Discretion</referent>, do
+                man forsake,</line>
+            <line>Foolish friends and <referent char="Kindred Cousin">kinsmen</referent>, that fair
+                spake,</line>
+            <line>All fleeth save <referent char="Good-Deeds">Good-Deeds</referent>, and that am
+                I.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Have mercy on me, <referent char="God"
+                    >God most mighty</referent>;</line>
+            <line>And stand by me, <referent char="Mary">thou Mother and Maid, holy
+                Mary</referent>.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker>. Fear not, I will speak for
+                thee.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Here I cry <referent char="God"
+                    >God</referent> mercy.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Good-Deeds">Good-Deeds</speaker> Short our end, and minish our
+                pain;</line>
+            <line>Let us go and never come again.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Everyman">Everyman</speaker> Into thy hands, <referent char="God"
+                    >Lord</referent>, my soul I commend;</line>
+            <line>Receive it, <referent char="God">Lord</referent>, that it be not lost;</line>
+            <line>As thou me boughtest, so me defend,</line>
+            <line>And save me from the <referent char="Devil">fiend</referent>'s boast,</line>
+            <line>That I may appear with that blessed host</line>
+            <line>That shall be saved at the day of doom.</line>
+            <line><quote source="Vulgate" ref="Luke-23:46">In manus tuas</quote>--of might's
+                most</line>
+            <line>For ever--<quote source="Vulgate" ref="Luke-23:46">commendo spiritum
+                meum.</quote></line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Knowledge">Knowledge</speaker> Now hath he suffered that we all
+                shall endure;</line>
+            <line>The <referent char="Good-Deeds">Good-Deeds</referent> shall make all sure.</line>
+            <line>Now hath he made ending;</line>
+            <line>Methinketh that I hear angels sing</line>
+            <line>And make great joy and melody,</line>
+            <line>Where <referent char="Everyman">Everyman</referent>'s soul received shall
+                be.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Angel">Angel</speaker> Come, excellent elect spouse to <referent
+                    char="God" person="Son">Jesu</referent>:</line>
+            <line>Hereabove thou shalt go</line>
+            <line>Because of thy singular virtue:</line>
+            <line>Now the soul is taken the body fro;</line>
+            <line>Thy reckoning is crystal-clear.</line>
+            <line>Now shalt thou into the heavenly sphere,</line>
+            <line>Unto the which all ye shall come</line>
+            <line>That liveth well before the day of doom.</line>
+        </speech>
+
+        <speech>
+            <line><speaker char="Doctor">Doctor</speaker> This moral men may have in mind;</line>
+            <line>Ye hearers, take it of worth, old and young,</line>
+            <line>And forsake pride, for he deceiveth you in the end,</line>
+            <line>And remember <referent char="Beauty">Beauty</referent>, <referent char="Five-Wits"
+                    >Five-wits</referent>, <referent char="Strength">Strength</referent>, and
+                    <referent char="Discretion">Discretion</referent>,</line>
+            <line>They all at the last do <referent char="Everyman">Everyman</referent>
+                forsake,</line>
+            <line>Save his <referent char="Good-Deeds">Good-Deeds</referent>, there doth he
+                take.</line>
+            <line>But beware, and they be small</line>
+            <line>Before <referent char="God">God</referent>, he hath no help at all.</line>
+            <line>None excuse may be there for <referent char="Everyman">Everyman</referent>:</line>
+            <line>Alas, how shall he do then?</line>
+            <line>For after death amends may no man make,</line>
+            <line>For then mercy and pity do him forsake.</line>
+            <line>If his reckoning be not clear when he do come,</line>
+            <line><referent char="God">God</referent> will say--<quote source="Vulgate"
+                    ref="Matthew-25:41">ite maledicti in ignem æternum</quote>.</line>
+            <line>And he that hath his account whole and sound,</line>
+            <line>High in heaven he shall be crowned;</line>
+            <line>Unto which place <referent char="God">God</referent> bring us all thither</line>
+            <line>That we may live body and soul together.</line>
+            <line>Thereto help the <referent char="God">Trinity</referent>,</line>
+            <line>Amen, say ye, for <referent char="Saint-Charity">saint Charity</referent>.</line>
+        </speech>
+    </script>
+
+    <conclusion>THUS ENDETH THIS MORALL PLAY OF EVERYMAN.</conclusion>
+
+
+
+    <note n="7"> is impaired.</note>
+
+    <note n="8"> know.</note>
+
+    <note n="9"> mediator.</note>
+
+    <note n="10"> been gotten, been born.</note>
+
+    <note n="11"> God.</note>
+
+    <note n="12"> born.</note>
+
+    <note n="13"> blame.</note>
+
+    <note n="14"> If you go by me.</note>
+
+    <note n="15"> with.</note>
+
+    <note n="16"> season.</note>
+
+    <note n="17"> speed in help of all.</note>
+</play>

@@ -1,0 +1,1 @@
+/play/script/speech/line/speaker[@char="Good-Deeds"]/ancestor::speech

@@ -130,18 +130,18 @@ div {
 }
 #phe1{
     position: absolute;
-    bottom: 580px;
-    left: 15px;
+    top: 2%;
+    left: 1%;
 }
 #phe2{
     position: absolute;
-    bottom: 100px;
-    left: 1450px;
+    bottom: 10%;
+    right: 5%;
 }
 #phe3{
     position: absolute;
-    bottom: 410px;
-    left: 800px;
+    top: 16%;
+    left: 40%;
 }
 #pit1{
     position: absolute;

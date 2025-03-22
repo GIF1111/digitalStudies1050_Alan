@@ -50,7 +50,7 @@ div {
     text-align: justify;
     text-decoration: none;
     position: absolute;
-    left: 400px;
+    left: 31%;
     text-shadow: 0 0 10px white;
 }
 #pheAlign {
@@ -61,8 +61,8 @@ div {
     text-align: justify;
     text-decoration: none;
     position: absolute;
-    left: 1000px;
-    bottom: 800px;
+    left: 50%;
+    bottom: 90%;
     text-shadow: 0 0 10px white;
 }
 #fall {
@@ -115,18 +115,18 @@ div {
 }
 #cle1{
     position: absolute;
-    bottom: 470px;
-    left: 10px;
+    top: 1%;
+    left: 1%;
 }
 #cle2{
     position: absolute;
-    bottom: 50px;
-    left: 555px;
+    bottom: 4%;
+    left: 33%;
 }
 #cle3{
     position: absolute;
-    bottom: 410px;
-    left: 1050px;
+    top: 11%;
+    left: 60%;
 }
 #phe1{
     position: absolute;
